@@ -19,4 +19,3 @@ Dafür benötigen Sie einen GitHub-Account, den sie kostenfrei anlegen können.
 # Nutzungsbedingungen
 
 Alle im Verzeichnis [lto](https://github.com/christiankral/Grundlagen-der-Elektrotechnik/tree/main/lto) verfügbaren LeTTo-Dateien dürfen unter Einhaltung der [Lizenzbedingungem](https://github.com/christiankral/Grundlagen-der-Elektrotechnik/blob/main/lto/LIZENZ.md) frei genutz werden.
-Elektrotechnik

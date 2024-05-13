@@ -1,6 +1,10 @@
-# Grundlagen der Elektrotechnik
+# Grundlagen der Elektrotechnik 1
 
-Das Fachbuch erscheint im [Carl Hanser Verlag](https://www.hanser-kundencenter.de/fachbuch/).
+Das Fachbuch wird im [Carl Hanser Verlag](https://www.hanser-fachbuch.de/fachbuch/artikel/9783446473768) erscheinen.
+
+<img src="https://files.hanser.de/ARTK/9783446473768/P01/0/2375/278/jpg/100" width="400"/>
+
+Aktuelle [Errata zum Buch](https://github.com/christiankral/Grundlagen-der-Elektrotechnik/blob/main/Errata/Errata-Grundlagen-der-Elektrochnik-1-Auflage-1.pdf)
 
 # Das Repository zum Buch
 
@@ -15,3 +19,4 @@ Dafür benötigen Sie einen GitHub-Account, den sie kostenfrei anlegen können.
 # Nutzungsbedingungen
 
 Alle im Verzeichnis [lto](https://github.com/christiankral/Grundlagen-der-Elektrotechnik/tree/main/lto) verfügbaren LeTTo-Dateien dürfen unter Einhaltung der [Lizenzbedingungem](https://github.com/christiankral/Grundlagen-der-Elektrotechnik/blob/main/lto/LIZENZ.md) frei genutz werden.
+Elektrotechnik

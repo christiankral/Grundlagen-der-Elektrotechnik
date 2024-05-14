@@ -14,7 +14,7 @@ Verwenden Sie diese Repository für **Feedback**, falls
 - Probleme mit LeTTo-Aufgaben auftreten.
 
 Erstellen Sie dafür einen neues [Issue](https://github.com/christiankral/Grundlagen-der-Elektrotechnik/issues/new).
-Dafür benötigen Sie einen GitHub-Account, den sie kostenfrei anlegen können.
+Dafür benötigen Sie einen GitHub-Account, den Sie kostenfrei anlegen können.
 
 # Nutzungsbedingungen
 

@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<letto mode="101" databaseinfo="sql">
+<category>
+   <name><![CDATA[4 Trigonometrie]]></name>
+   <category>
+      <name><![CDATA[4.1 Winkel]]></name>
+   </category>
+   <category>
+      <name><![CDATA[4.2 Rechtwinkeliges Dreieck]]></name>
+      <question type="LinkedQuestion">
+         <id>158665039</id>
+         <idUser>157653316</idUser>
+         <questionType>23</questionType>
+         <single>0</single>
+         <name><![CDATA[Rechtwinkeliges Dreieck SS1_linked]]></name>
+         <punkte>1.0</punkte>
+         <penalty/>
+         <hidden>0</hidden>
+         <tag/>
+         <noAutoCorrect>0</noAutoCorrect>
+         <usecase>0</usecase>
+         <synchronize>0</synchronize>
+         <shuffleAnswers>1</shuffleAnswers>
+         <answerNumbering><![CDATA[abc]]></answerNumbering>
+         <unitGradingType>2</unitGradingType>
+         <unitPenalty>0.1</unitPenalty>
+         <showUnits>0</showUnits>
+         <unitsLeft>0</unitsLeft>
+         <maxima/>
+         <responseFormat><![CDATA[editor]]></responseFormat>
+         <responseFieldLines>10</responseFieldLines>
+         <attachments>3</attachments>
+         <md5/>
+         <units/>
+         <plugins/>
+         <sendToParser>true</sendToParser>
+         <preCalc>true</preCalc>
+         <streng>false</streng>
+         <licenceKey />
+         <konstanteMitProzent>true</konstanteMitProzent>
+         <useSymbolicMode>false</useSymbolicMode>
+         <addDocumentsPossible>false</addDocumentsPossible>
+         <info/>
+         <randomDataset>false</randomDataset>
+         <creationDate></creationDate>
+         <lastChange></lastChange>
+         <security/>
+         <copyright/>
+         <onRamp>false</onRamp>
+         <jsonMap><![CDATA[{}]]></jsonMap>
+         <changeLogMap><![CDATA[{}]]></changeLogMap>
+         <text art="Questiontext" id="158690557" format="">         <inhalt/>
+</text>
+         <text art="general feedback" id="158690558" format="">         <inhalt/>
+</text>
+         <text art="correct feedback" id="158690559" format="">         <inhalt/>
+</text>
+         <text art="partially correct feedback" id="158690560" format="">         <inhalt/>
+</text>
+         <text art="incorrect feedback" id="158690561" format="">         <inhalt/>
+</text>
+         <text art="grader info" id="158690562" format="">         <inhalt/>
+</text>
+      </question>
+      <question type="LinkedQuestion">
+         <id>158665040</id>
+         <idUser>157653334</idUser>
+         <questionType>23</questionType>
+         <single>0</single>
+         <name><![CDATA[Rechtwinkeliges Dreieck SS2_linked]]></name>
+         <punkte>1.0</punkte>
+         <penalty/>
+         <hidden>0</hidden>
+         <tag/>
+         <noAutoCorrect>0</noAutoCorrect>
+         <usecase>0</usecase>
+         <synchronize>0</synchronize>
+         <shuffleAnswers>1</shuffleAnswers>
+         <answerNumbering><![CDATA[abc]]></answerNumbering>
+         <unitGradingType>2</unitGradingType>
+         <unitPenalty>0.1</unitPenalty>
+         <showUnits>0</showUnits>
+         <unitsLeft>0</unitsLeft>
+         <maxima/>
+         <responseFormat><![CDATA[editor]]></responseFormat>
+         <responseFieldLines>10</responseFieldLines>
+         <attachments>3</attachments>
+         <md5/>
+         <units/>
+         <plugins/>
+         <sendToParser>true</sendToParser>
+         <preCalc>true</preCalc>
+         <streng>false</streng>
+         <licenceKey />
+         <konstanteMitProzent>true</konstanteMitProzent>
+         <useSymbolicMode>false</useSymbolicMode>
+         <addDocumentsPossible>false</addDocumentsPossible>
+         <info/>
+         <randomDataset>false</randomDataset>
+         <creationDate></creationDate>
+         <lastChange></lastChange>
+         <security/>
+         <copyright/>
+         <onRamp>false</onRamp>
+         <jsonMap><![CDATA[{}]]></jsonMap>
+         <changeLogMap><![CDATA[{}]]></changeLogMap>
+         <text art="Questiontext" id="158690563" format="">         <inhalt/>
+</text>
+         <text art="general feedback" id="158690564" format="">         <inhalt/>
+</text>
+         <text art="correct feedback" id="158690565" format="">         <inhalt/>
+</text>
+         <text art="partially correct feedback" id="158690566" format="">         <inhalt/>
+</text>
+         <text art="incorrect feedback" id="158690567" format="">         <inhalt/>
+</text>
+         <text art="grader info" id="158690568" format="">         <inhalt/>
+</text>
+      </question>
+      <question type="LinkedQuestion">
+         <id>158665041</id>
+         <idUser>157653352</idUser>
+         <questionType>23</questionType>
+         <single>0</single>
+         <name><![CDATA[Rechtwinkeliges Dreieck SS3_linked]]></name>
+         <punkte>1.0</punkte>
+         <penalty/>
+         <hidden>0</hidden>
+         <tag/>
+         <noAutoCorrect>0</noAutoCorrect>
+         <usecase>0</usecase>
+         <synchronize>0</synchronize>
+         <shuffleAnswers>1</shuffleAnswers>
+         <answerNumbering><![CDATA[abc]]></answerNumbering>
+         <unitGradingType>2</unitGradingType>
+         <unitPenalty>0.1</unitPenalty>
+         <showUnits>0</showUnits>
+         <unitsLeft>0</unitsLeft>
+         <maxima/>
+         <responseFormat><![CDATA[editor]]></responseFormat>
+         <responseFieldLines>10</responseFieldLines>
+         <attachments>3</attachments>
+         <md5/>
+         <units/>
+         <plugins/>
+         <sendToParser>true</sendToParser>
+         <preCalc>true</preCalc>
+         <streng>false</streng>
+         <licenceKey />
+         <konstanteMitProzent>true</konstanteMitProzent>
+         <useSymbolicMode>false</useSymbolicMode>
+         <addDocumentsPossible>false</addDocumentsPossible>
+         <info/>
+         <randomDataset>false</randomDataset>
+         <creationDate></creationDate>
+         <lastChange></lastChange>
+         <security/>
+         <copyright/>
+         <onRamp>false</onRamp>
+         <jsonMap><![CDATA[{}]]></jsonMap>
+         <changeLogMap><![CDATA[{}]]></changeLogMap>
+         <text art="Questiontext" id="158690569" format="">         <inhalt/>
+</text>
+         <text art="general feedback" id="158690570" format="">         <inhalt/>
+</text>
+         <text art="correct feedback" id="158690571" format="">         <inhalt/>
+</text>
+         <text art="partially correct feedback" id="158690572" format="">         <inhalt/>
+</text>
+         <text art="incorrect feedback" id="158690573" format="">         <inhalt/>
+</text>
+         <text art="grader info" id="158690574" format="">         <inhalt/>
+</text>
+      </question>
+      <question type="LinkedQuestion">
+         <id>158665042</id>
+         <idUser>157653370</idUser>
+         <questionType>23</questionType>
+         <single>0</single>
+         <name><![CDATA[Rechtwinkeliges Dreieck SW1_linked]]></name>
+         <punkte>1.0</punkte>
+         <penalty/>
+         <hidden>0</hidden>
+         <tag/>
+         <noAutoCorrect>0</noAutoCorrect>
+         <usecase>0</usecase>
+         <synchronize>0</synchronize>
+         <shuffleAnswers>1</shuffleAnswers>
+         <answerNumbering><![CDATA[abc]]></answerNumbering>
+         <unitGradingType>2</unitGradingType>
+         <unitPenalty>0.1</unitPenalty>
+         <showUnits>0</showUnits>
+         <unitsLeft>0</unitsLeft>
+         <maxima/>
+         <responseFormat><![CDATA[editor]]></responseFormat>
+         <responseFieldLines>10</responseFieldLines>
+         <attachments>3</attachments>
+         <md5/>
+         <units/>
+         <plugins/>
+         <sendToParser>true</sendToParser>
+         <preCalc>true</preCalc>
+         <streng>false</streng>
+         <licenceKey />
+         <konstanteMitProzent>true</konstanteMitProzent>
+         <useSymbolicMode>false</useSymbolicMode>
+         <addDocumentsPossible>false</addDocumentsPossible>
+         <info/>
+         <randomDataset>false</randomDataset>
+         <creationDate></creationDate>
+         <lastChange></lastChange>
+         <security/>
+         <copyright/>
+         <onRamp>false</onRamp>
+         <jsonMap><![CDATA[{}]]></jsonMap>
+         <changeLogMap><![CDATA[{}]]></changeLogMap>
+         <text art="Questiontext" id="158690575" format="">         <inhalt/>
+</text>
+         <text art="general feedback" id="158690576" format="">         <inhalt/>
+</text>
+         <text art="correct feedback" id="158690577" format="">         <inhalt/>
+</text>
+         <text art="partially correct feedback" id="158690578" format="">         <inhalt/>
+</text>
+         <text art="incorrect feedback" id="158690579" format="">         <inhalt/>
+</text>
+         <text art="grader info" id="158690580" format="">         <inhalt/>
+</text>
+      </question>
+      <question type="LinkedQuestion">
+         <id>158665043</id>
+         <idUser>157653388</idUser>
+         <questionType>23</questionType>
+         <single>0</single>
+         <name><![CDATA[Rechtwinkeliges Dreieck SW3_linked]]></name>
+         <punkte>1.0</punkte>
+         <penalty/>
+         <hidden>0</hidden>
+         <tag/>
+         <noAutoCorrect>0</noAutoCorrect>
+         <usecase>0</usecase>
+         <synchronize>0</synchronize>
+         <shuffleAnswers>1</shuffleAnswers>
+         <answerNumbering><![CDATA[abc]]></answerNumbering>
+         <unitGradingType>2</unitGradingType>
+         <unitPenalty>0.1</unitPenalty>
+         <showUnits>0</showUnits>
+         <unitsLeft>0</unitsLeft>
+         <maxima/>
+         <responseFormat><![CDATA[editor]]></responseFormat>
+         <responseFieldLines>10</responseFieldLines>
+         <attachments>3</attachments>
+         <md5/>
+         <units/>
+         <plugins/>
+         <sendToParser>true</sendToParser>
+         <preCalc>true</preCalc>
+         <streng>false</streng>
+         <licenceKey />
+         <konstanteMitProzent>true</konstanteMitProzent>
+         <useSymbolicMode>false</useSymbolicMode>
+         <addDocumentsPossible>false</addDocumentsPossible>
+         <info/>
+         <randomDataset>false</randomDataset>
+         <creationDate></creationDate>
+         <lastChange></lastChange>
+         <security/>
+         <copyright/>
+         <onRamp>false</onRamp>
+         <jsonMap><![CDATA[{}]]></jsonMap>
+         <changeLogMap><![CDATA[{}]]></changeLogMap>
+         <text art="Questiontext" id="158690581" format="">         <inhalt/>
+</text>
+         <text art="general feedback" id="158690582" format="">         <inhalt/>
+</text>
+         <text art="correct feedback" id="158690583" format="">         <inhalt/>
+</text>
+         <text art="partially correct feedback" id="158690584" format="">         <inhalt/>
+</text>
+         <text art="incorrect feedback" id="158690585" format="">         <inhalt/>
+</text>
+         <text art="grader info" id="158690586" format="">         <inhalt/>
+</text>
+      </question>
+      <question type="LinkedQuestion">
+         <id>158665044</id>
+         <idUser>157653406</idUser>
+         <questionType>23</questionType>
+         <single>0</single>
+         <name><![CDATA[Rechtwinkeliges Dreieck SW5_linked]]></name>
+         <punkte>1.0</punkte>
+         <penalty/>
+         <hidden>0</hidden>
+         <tag/>
+         <noAutoCorrect>0</noAutoCorrect>
+         <usecase>0</usecase>
+         <synchronize>0</synchronize>
+         <shuffleAnswers>1</shuffleAnswers>
+         <answerNumbering><![CDATA[abc]]></answerNumbering>
+         <unitGradingType>2</unitGradingType>
+         <unitPenalty>0.1</unitPenalty>
+         <showUnits>0</showUnits>
+         <unitsLeft>0</unitsLeft>
+         <maxima/>
+         <responseFormat><![CDATA[editor]]></responseFormat>
+         <responseFieldLines>10</responseFieldLines>
+         <attachments>3</attachments>
+         <md5/>
+         <units/>
+         <plugins/>
+         <sendToParser>true</sendToParser>
+         <preCalc>true</preCalc>
+         <streng>false</streng>
+         <licenceKey />
+         <konstanteMitProzent>true</konstanteMitProzent>
+         <useSymbolicMode>false</useSymbolicMode>
+         <addDocumentsPossible>false</addDocumentsPossible>
+         <info/>
+         <randomDataset>false</randomDataset>
+         <creationDate></creationDate>
+         <lastChange></lastChange>
+         <security/>
+         <copyright/>
+         <onRamp>false</onRamp>
+         <jsonMap><![CDATA[{}]]></jsonMap>
+         <changeLogMap><![CDATA[{}]]></changeLogMap>
+         <text art="Questiontext" id="158690587" format="">         <inhalt/>
+</text>
+         <text art="general feedback" id="158690588" format="">         <inhalt/>
+</text>
+         <text art="correct feedback" id="158690589" format="">         <inhalt/>
+</text>
+         <text art="partially correct feedback" id="158690590" format="">         <inhalt/>
+</text>
+         <text art="incorrect feedback" id="158690591" format="">         <inhalt/>
+</text>
+         <text art="grader info" id="158690592" format="">         <inhalt/>
+</text>
+      </question>
+   </category>
+   <category>
+      <name><![CDATA[4.3 Allgemeines Dreieck]]></name>
+      <question type="LinkedQuestion">
+         <id>158665045</id>
+         <idUser>157653424</idUser>
+         <questionType>23</questionType>
+         <single>0</single>
+         <name><![CDATA[Allgemeines Dreieck SSW1_linked]]></name>
+         <punkte>1.0</punkte>
+         <penalty/>
+         <hidden>0</hidden>
+         <tag/>
+         <noAutoCorrect>0</noAutoCorrect>
+         <usecase>0</usecase>
+         <synchronize>0</synchronize>
+         <shuffleAnswers>1</shuffleAnswers>
+         <answerNumbering><![CDATA[abc]]></answerNumbering>
+         <unitGradingType>2</unitGradingType>
+         <unitPenalty>0.1</unitPenalty>
+         <showUnits>0</showUnits>
+         <unitsLeft>0</unitsLeft>
+         <maxima/>
+         <responseFormat><![CDATA[editor]]></responseFormat>
+         <responseFieldLines>10</responseFieldLines>
+         <attachments>3</attachments>
+         <md5/>
+         <units/>
+         <plugins/>
+         <sendToParser>true</sendToParser>
+         <preCalc>true</preCalc>
+         <streng>false</streng>
+         <licenceKey />
+         <konstanteMitProzent>true</konstanteMitProzent>
+         <useSymbolicMode>false</useSymbolicMode>
+         <addDocumentsPossible>false</addDocumentsPossible>
+         <info/>
+         <randomDataset>false</randomDataset>
+         <creationDate></creationDate>
+         <lastChange></lastChange>
+         <security/>
+         <copyright/>
+         <onRamp>false</onRamp>
+         <jsonMap><![CDATA[{}]]></jsonMap>
+         <changeLogMap><![CDATA[{}]]></changeLogMap>
+         <text art="Questiontext" id="158690593" format="">         <inhalt/>
+</text>
+         <text art="general feedback" id="158690594" format="">         <inhalt/>
+</text>
+         <text art="correct feedback" id="158690595" format="">         <inhalt/>
+</text>
+         <text art="partially correct feedback" id="158690596" format="">         <inhalt/>
+</text>
+         <text art="incorrect feedback" id="158690597" format="">         <inhalt/>
+</text>
+         <text art="grader info" id="158690598" format="">         <inhalt/>
+</text>
+      </question>
+      <question type="LinkedQuestion">
+         <id>158665046</id>
+         <idUser>157653444</idUser>
+         <questionType>23</questionType>
+         <single>0</single>
+         <name><![CDATA[Allgemeines Dreieck SWW1_linked]]></name>
+         <punkte>1.0</punkte>
+         <penalty/>
+         <hidden>0</hidden>
+         <tag/>
+         <noAutoCorrect>0</noAutoCorrect>
+         <usecase>0</usecase>
+         <synchronize>0</synchronize>
+         <shuffleAnswers>1</shuffleAnswers>
+         <answerNumbering><![CDATA[abc]]></answerNumbering>
+         <unitGradingType>2</unitGradingType>
+         <unitPenalty>0.1</unitPenalty>
+         <showUnits>0</showUnits>
+         <unitsLeft>0</unitsLeft>
+         <maxima/>
+         <responseFormat><![CDATA[editor]]></responseFormat>
+         <responseFieldLines>10</responseFieldLines>
+         <attachments>3</attachments>
+         <md5/>
+         <units/>
+         <plugins/>
+         <sendToParser>true</sendToParser>
+         <preCalc>true</preCalc>
+         <streng>false</streng>
+         <licenceKey />
+         <konstanteMitProzent>true</konstanteMitProzent>
+         <useSymbolicMode>false</useSymbolicMode>
+         <addDocumentsPossible>false</addDocumentsPossible>
+         <info/>
+         <randomDataset>false</randomDataset>
+         <creationDate></creationDate>
+         <lastChange></lastChange>
+         <security/>
+         <copyright/>
+         <onRamp>false</onRamp>
+         <jsonMap><![CDATA[{}]]></jsonMap>
+         <changeLogMap><![CDATA[{}]]></changeLogMap>
+         <text art="Questiontext" id="158690599" format="">         <inhalt/>
+</text>
+         <text art="general feedback" id="158690600" format="">         <inhalt/>
+</text>
+         <text art="correct feedback" id="158690601" format="">         <inhalt/>
+</text>
+         <text art="partially correct feedback" id="158690602" format="">         <inhalt/>
+</text>
+         <text art="incorrect feedback" id="158690603" format="">         <inhalt/>
+</text>
+         <text art="grader info" id="158690604" format="">         <inhalt/>
+</text>
+      </question>
+      <question type="LinkedQuestion">
+         <id>158665047</id>
+         <idUser>157653464</idUser>
+         <questionType>23</questionType>
+         <single>0</single>
+         <name><![CDATA[Allgemeines Dreieck SSW2_linked]]></name>
+         <punkte>1.0</punkte>
+         <penalty/>
+         <hidden>0</hidden>
+         <tag/>
+         <noAutoCorrect>0</noAutoCorrect>
+         <usecase>0</usecase>
+         <synchronize>0</synchronize>
+         <shuffleAnswers>1</shuffleAnswers>
+         <answerNumbering><![CDATA[abc]]></answerNumbering>
+         <unitGradingType>2</unitGradingType>
+         <unitPenalty>0.1</unitPenalty>
+         <showUnits>0</showUnits>
+         <unitsLeft>0</unitsLeft>
+         <maxima/>
+         <responseFormat><![CDATA[editor]]></responseFormat>
+         <responseFieldLines>10</responseFieldLines>
+         <attachments>3</attachments>
+         <md5/>
+         <units/>
+         <plugins/>
+         <sendToParser>true</sendToParser>
+         <preCalc>true</preCalc>
+         <streng>false</streng>
+         <licenceKey />
+         <konstanteMitProzent>true</konstanteMitProzent>
+         <useSymbolicMode>false</useSymbolicMode>
+         <addDocumentsPossible>false</addDocumentsPossible>
+         <info/>
+         <randomDataset>false</randomDataset>
+         <creationDate></creationDate>
+         <lastChange></lastChange>
+         <security/>
+         <copyright/>
+         <onRamp>false</onRamp>
+         <jsonMap><![CDATA[{}]]></jsonMap>
+         <changeLogMap><![CDATA[{}]]></changeLogMap>
+         <text art="Questiontext" id="158690605" format="">         <inhalt/>
+</text>
+         <text art="general feedback" id="158690606" format="">         <inhalt/>
+</text>
+         <text art="correct feedback" id="158690607" format="">         <inhalt/>
+</text>
+         <text art="partially correct feedback" id="158690608" format="">         <inhalt/>
+</text>
+         <text art="incorrect feedback" id="158690609" format="">         <inhalt/>
+</text>
+         <text art="grader info" id="158690610" format="">         <inhalt/>
+</text>
+      </question>
+      <question type="LinkedQuestion">
+         <id>158665048</id>
+         <idUser>157653484</idUser>
+         <questionType>23</questionType>
+         <single>0</single>
+         <name><![CDATA[Allgemeines Dreieck SWW2_linked]]></name>
+         <punkte>1.0</punkte>
+         <penalty/>
+         <hidden>0</hidden>
+         <tag/>
+         <noAutoCorrect>0</noAutoCorrect>
+         <usecase>0</usecase>
+         <synchronize>0</synchronize>
+         <shuffleAnswers>1</shuffleAnswers>
+         <answerNumbering><![CDATA[abc]]></answerNumbering>
+         <unitGradingType>2</unitGradingType>
+         <unitPenalty>0.1</unitPenalty>
+         <showUnits>0</showUnits>
+         <unitsLeft>0</unitsLeft>
+         <maxima/>
+         <responseFormat><![CDATA[editor]]></responseFormat>
+         <responseFieldLines>10</responseFieldLines>
+         <attachments>3</attachments>
+         <md5/>
+         <units/>
+         <plugins/>
+         <sendToParser>true</sendToParser>
+         <preCalc>true</preCalc>
+         <streng>false</streng>
+         <licenceKey />
+         <konstanteMitProzent>true</konstanteMitProzent>
+         <useSymbolicMode>false</useSymbolicMode>
+         <addDocumentsPossible>false</addDocumentsPossible>
+         <info/>
+         <randomDataset>false</randomDataset>
+         <creationDate></creationDate>
+         <lastChange></lastChange>
+         <security/>
+         <copyright/>
+         <onRamp>false</onRamp>
+         <jsonMap><![CDATA[{}]]></jsonMap>
+         <changeLogMap><![CDATA[{}]]></changeLogMap>
+         <text art="Questiontext" id="158690611" format="">         <inhalt/>
+</text>
+         <text art="general feedback" id="158690612" format="">         <inhalt/>
+</text>
+         <text art="correct feedback" id="158690613" format="">         <inhalt/>
+</text>
+         <text art="partially correct feedback" id="158690614" format="">         <inhalt/>
+</text>
+         <text art="incorrect feedback" id="158690615" format="">         <inhalt/>
+</text>
+         <text art="grader info" id="158690616" format="">         <inhalt/>
+</text>
+      </question>
+      <question type="LinkedQuestion">
+         <id>158665049</id>
+         <idUser>157653504</idUser>
+         <questionType>23</questionType>
+         <single>0</single>
+         <name><![CDATA[Allgemeines Dreieck SSW3_linked]]></name>
+         <punkte>1.0</punkte>
+         <penalty/>
+         <hidden>0</hidden>
+         <tag/>
+         <noAutoCorrect>0</noAutoCorrect>
+         <usecase>0</usecase>
+         <synchronize>0</synchronize>
+         <shuffleAnswers>1</shuffleAnswers>
+         <answerNumbering><![CDATA[abc]]></answerNumbering>
+         <unitGradingType>2</unitGradingType>
+         <unitPenalty>0.1</unitPenalty>
+         <showUnits>0</showUnits>
+         <unitsLeft>0</unitsLeft>
+         <maxima/>
+         <responseFormat><![CDATA[editor]]></responseFormat>
+         <responseFieldLines>10</responseFieldLines>
+         <attachments>3</attachments>
+         <md5/>
+         <units/>
+         <plugins/>
+         <sendToParser>true</sendToParser>
+         <preCalc>true</preCalc>
+         <streng>false</streng>
+         <licenceKey />
+         <konstanteMitProzent>true</konstanteMitProzent>
+         <useSymbolicMode>false</useSymbolicMode>
+         <addDocumentsPossible>false</addDocumentsPossible>
+         <info/>
+         <randomDataset>false</randomDataset>
+         <creationDate></creationDate>
+         <lastChange></lastChange>
+         <security/>
+         <copyright/>
+         <onRamp>false</onRamp>
+         <jsonMap><![CDATA[{}]]></jsonMap>
+         <changeLogMap><![CDATA[{}]]></changeLogMap>
+         <text art="Questiontext" id="158690617" format="">         <inhalt/>
+</text>
+         <text art="general feedback" id="158690618" format="">         <inhalt/>
+</text>
+         <text art="correct feedback" id="158690619" format="">         <inhalt/>
+</text>
+         <text art="partially correct feedback" id="158690620" format="">         <inhalt/>
+</text>
+         <text art="incorrect feedback" id="158690621" format="">         <inhalt/>
+</text>
+         <text art="grader info" id="158690622" format="">         <inhalt/>
+</text>
+      </question>
+      <question type="LinkedQuestion">
+         <id>158665050</id>
+         <idUser>157653524</idUser>
+         <questionType>23</questionType>
+         <single>0</single>
+         <name><![CDATA[Allgemeines Dreieck SWW3_linked]]></name>
+         <punkte>1.0</punkte>
+         <penalty/>
+         <hidden>0</hidden>
+         <tag/>
+         <noAutoCorrect>0</noAutoCorrect>
+         <usecase>0</usecase>
+         <synchronize>0</synchronize>
+         <shuffleAnswers>1</shuffleAnswers>
+         <answerNumbering><![CDATA[abc]]></answerNumbering>
+         <unitGradingType>2</unitGradingType>
+         <unitPenalty>0.1</unitPenalty>
+         <showUnits>0</showUnits>
+         <unitsLeft>0</unitsLeft>
+         <maxima/>
+         <responseFormat><![CDATA[editor]]></responseFormat>
+         <responseFieldLines>10</responseFieldLines>
+         <attachments>3</attachments>
+         <md5/>
+         <units/>
+         <plugins/>
+         <sendToParser>true</sendToParser>
+         <preCalc>true</preCalc>
+         <streng>false</streng>
+         <licenceKey />
+         <konstanteMitProzent>true</konstanteMitProzent>
+         <useSymbolicMode>false</useSymbolicMode>
+         <addDocumentsPossible>false</addDocumentsPossible>
+         <info/>
+         <randomDataset>false</randomDataset>
+         <creationDate></creationDate>
+         <lastChange></lastChange>
+         <security/>
+         <copyright/>
+         <onRamp>false</onRamp>
+         <jsonMap><![CDATA[{}]]></jsonMap>
+         <changeLogMap><![CDATA[{}]]></changeLogMap>
+         <text art="Questiontext" id="158690623" format="">         <inhalt/>
+</text>
+         <text art="general feedback" id="158690624" format="">         <inhalt/>
+</text>
+         <text art="correct feedback" id="158690625" format="">         <inhalt/>
+</text>
+         <text art="partially correct feedback" id="158690626" format="">         <inhalt/>
+</text>
+         <text art="incorrect feedback" id="158690627" format="">         <inhalt/>
+</text>
+         <text art="grader info" id="158690628" format="">         <inhalt/>
+</text>
+      </question>
+   </category>
+</category>
+</letto>

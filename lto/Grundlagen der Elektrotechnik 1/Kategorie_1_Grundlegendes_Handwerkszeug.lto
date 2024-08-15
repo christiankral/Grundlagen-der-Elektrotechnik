@@ -5,6 +5,387 @@
    <category>
       <name><![CDATA[1.2 Zehnerpotenzen]]></name>
       <question type="MoodleClozeCalc">
+         <id>141976410</id>
+         <idUser>1836</idUser>
+         <questionType>22</questionType>
+         <name><![CDATA[Zahlen runden signifkante Stellen]]></name>
+         <punkte>8.0</punkte>
+         <penalty/>
+         <hidden>0</hidden>
+         <tag/>
+         <noAutoCorrect>0</noAutoCorrect>
+         <usecase>0</usecase>
+         <synchronize>0</synchronize>
+         <shuffleAnswers>1</shuffleAnswers>
+         <answerNumbering><![CDATA[abc]]></answerNumbering>
+         <unitGradingType>2</unitGradingType>
+         <unitPenalty>0.1</unitPenalty>
+         <showUnits>0</showUnits>
+         <unitsLeft>0</unitsLeft>
+         <maxima><![CDATA[F : noopt(Z/N)
+f : double(Z/N)
+f4 : ground(f,4)
+
+s1 : floor(f / 10^floor(log10(f)))
+s2:  floor(f / 10^floor(log10(f)-1)) - 10 * s1
+s3:  floor(f / 10^floor(log10(f)-2)) - 100 * s1 - 10 * s2
+s4:  floor(f / 10^floor(log10(f)-3)) - 1000 * s1 - 100 * s2 - 10 * s3
+s5:  floor(f / 10^floor(log10(f)-4)) - 10000 * s1 - 1000 * s2 - 100 * s3 - 10 * s4]]></maxima>
+         <maximaAngabe><![CDATA[;::;F:noopt(Z/N);f:double(Z/N);f4:ground(double(Z/N),4);s1:floor(double(Z/N)/10^floor(log(double(Z/N))/log(10)));s2:floor(double(Z/N)*10^(1-floor(log(double(Z/N))/log(10))))-10*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10)));s3:-100*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10)))-10*(floor(double(Z/N)*10^(1-floor(log(double(Z/N))/log(10))))-10*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10))))+floor(double(Z/N)*10^(2-floor(log(double(Z/N))/log(10))));s4:-1000*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10)))-100*(floor(double(Z/N)*10^(1-floor(log(double(Z/N))/log(10))))-10*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10))))-10*(-100*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10)))-10*(floor(double(Z/N)*10^(1-floor(log(double(Z/N))/log(10))))-10*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10))))+floor(double(Z/N)*10^(2-floor(log(double(Z/N))/log(10)))))+floor(double(Z/N)*10^(3-floor(log(double(Z/N))/log(10))));s5:-10000*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10)))-1000*(floor(double(Z/N)*10^(1-floor(log(double(Z/N))/log(10))))-10*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10))))-100*(-100*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10)))-10*(floor(double(Z/N)*10^(1-floor(log(double(Z/N))/log(10))))-10*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10))))+floor(double(Z/N)*10^(2-floor(log(double(Z/N))/log(10)))))-10*(-1000*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10)))-100*(floor(double(Z/N)*10^(1-floor(log(double(Z/N))/log(10))))-10*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10))))-10*(-100*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10)))-10*(floor(double(Z/N)*10^(1-floor(log(double(Z/N))/log(10))))-10*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10))))+floor(double(Z/N)*10^(2-floor(log(double(Z/N))/log(10)))))+floor(double(Z/N)*10^(3-floor(log(double(Z/N))/log(10)))))+floor(double(Z/N)*10^(4-floor(log(double(Z/N))/log(10))));]]></maximaAngabe>
+         <responseFormat><![CDATA[editor]]></responseFormat>
+         <responseFieldLines>10</responseFieldLines>
+         <attachments>3</attachments>
+         <md5/>
+         <units/>
+         <plugins/>
+         <sendToParser>false</sendToParser>
+         <preCalc>false</preCalc>
+         <streng>false</streng>
+         <licenceKey />
+         <konstanteMitProzent>true</konstanteMitProzent>
+         <useSymbolicMode>false</useSymbolicMode>
+         <addDocumentsPossible>false</addDocumentsPossible>
+         <info/>
+         <randomDataset>false</randomDataset>
+         <creationDate></creationDate>
+         <lastChange></lastChange>
+         <security/>
+         <copyright/>
+         <onRamp>false</onRamp>
+         <jsonMap><![CDATA[{}]]></jsonMap>
+         <changeLogMap><![CDATA[{}]]></changeLogMap>
+         <questionCommentMsg/>
+         <questionCommentIcon>REVIEWED</questionCommentIcon>
+         <text art="Questiontext" id="141976411" format="html">         <inhalt><![CDATA[<h1>Zahlen runden und signifkante Stellen&nbsp;</h1>
+
+<p>Bei Rechnungen (mit dem Taschenrechner) treten oft viele Dezimalstellen auf.</p>
+
+<p><strong>Beispiel:</strong>&nbsp;$z = {=F} = {=f;12}$</p>
+
+<p>Aber der Taschenrechner rundet die Zahl oft schon einmal. Und wenn man ein Rechnergebnis aufschreibt, rundet man im Regelfall immer, weil man nicht mit z.B. 10 oder mehr Kommastellen weiterrechnen m&ouml;chte.&nbsp;</p>
+
+<p>Doch wie <strong>rundet </strong>man<strong> richtig</strong>? Der Schl&uuml;ssel sind die <strong>signifkanten Stellen</strong>.</p>
+
+<p>Wir untersuchen die Zahl $z$ von links nach rechts:</p>
+
+<ul>
+	<li>Die&nbsp;<strong>erste</strong>&nbsp;signifkante Stelle ist die erste <strong>von links</strong> weggez&auml;hlte Ziffer, <strong>die nicht null</strong> ist. In diesem Fall ist dies die Ziffer [Q0]</li>
+	<li>Die&nbsp;<strong>zweite</strong>&nbsp;signifkante Stelle ist die n&auml;chste Stell rechts von der ersten signifkanten Stelle. In diesem Fall ist dies die Ziffer&nbsp;[Q1]</li>
+	<li>Die&nbsp;<strong>dritte</strong>&nbsp;signifkante Stelle ist die n&auml;chste Stell rechts von der zweiten&nbsp;signifkanten Stelle. In diesem Fall ist dies die Ziffer&nbsp;[Q2]</li>
+	<li>Die&nbsp;<strong>vierte</strong>&nbsp;signifkante Stelle ist die n&auml;chste Stell rechts von der dritten signifkanten Stelle. In diesem Fall ist dies die Ziffer&nbsp;[Q3]</li>
+	<li>Die&nbsp;<strong>f&uuml;nfte</strong>&nbsp;signifkante Stelle ist die n&auml;chste Stell rechts von der vierten signifkanten Stelle. In diesem Fall ist dies die Ziffer&nbsp;[Q4]</li>
+</ul>
+
+<p>In der Elektrotechnik rechnen wir in der Regel mit&nbsp;<strong>vier siginfikanten Stellen</strong>. Das bedeutet wird stellen von einer Dezimalzahl nur die erste bis vierte siginifikante Stelle dar. Wenn wir runden schreiben wir mitunter $\approx$ anstelle eines Gleichheitszeichens $=$. Die letzte signifkante Stelle wird aber&nbsp;<strong>immer gerundet</strong>.&nbsp;</p>
+
+<ul>
+	<li>Wenn die f&uuml;nfte signifkante Stelle 5,6,7,8 oder 9 betr&auml;gt, dann wird die vierte signifikante Stelle [Q6]</li>
+	<li>Wenn die f&uuml;nfte signifkante Stelle 0,1,2,3 oder 4 betr&auml;gt, dann wird die vierte signifikante Stelle&nbsp;[Q7]</li>
+</ul>
+
+<p>Auf vier signifkante Stellen gerundet: $z = {=f} \approx $&nbsp;[Q5]&nbsp;[Q8]</p>]]></inhalt>
+</text>
+         <text art="general feedback" id="141976412" format="html">         <inhalt/>
+</text>
+         <text art="correct feedback" id="141976413" format="html">         <inhalt/>
+</text>
+         <text art="partially correct feedback" id="141976414" format="html">         <inhalt/>
+</text>
+         <text art="incorrect feedback" id="141976415" format="html">         <inhalt/>
+</text>
+         <text art="grader info" id="141976416" format="html">         <inhalt/>
+</text>
+         <subquestion>
+            <id>141976618</id>
+            <grade>1.0</grade>
+            <mode>4</mode>
+            <name><![CDATA[Q0]]></name>
+            <maxima/>
+            <plugininfo/>
+            <shuffleAnswers>1</shuffleAnswers>
+            <schwierigkeit>0</schwierigkeit>
+            <answer>
+               <id>141976619</id>
+               <fraction>100.0</fraction>
+               <format><![CDATA[html]]></format>
+               <text><![CDATA[floor(double(Z/N)/10^floor(log(double(Z/N))/log(10)))]]></text>
+               <feedback/>
+               <tolerance><![CDATA[0%]]></tolerance>
+               <correctAnswerFormat>2</correctAnswerFormat>
+               <correctAnswerLength>5</correctAnswerLength>
+               <maxima><![CDATA[s1]]></maxima>
+               <answer><![CDATA[2]]></answer>
+               <einheit/>
+            </answer>
+         </subquestion>
+         <subquestion>
+            <id>141976652</id>
+            <grade>1.0</grade>
+            <mode>4</mode>
+            <name><![CDATA[Q1]]></name>
+            <maxima/>
+            <plugininfo/>
+            <shuffleAnswers>1</shuffleAnswers>
+            <schwierigkeit>0</schwierigkeit>
+            <answer>
+               <id>141976653</id>
+               <fraction>100.0</fraction>
+               <format><![CDATA[html]]></format>
+               <text><![CDATA[floor(double(Z/N)*10^(1-floor(log(double(Z/N))/log(10))))-10*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10)))]]></text>
+               <feedback/>
+               <tolerance><![CDATA[0%]]></tolerance>
+               <correctAnswerFormat>2</correctAnswerFormat>
+               <correctAnswerLength>5</correctAnswerLength>
+               <maxima><![CDATA[s2]]></maxima>
+               <answer><![CDATA[8]]></answer>
+               <einheit/>
+            </answer>
+         </subquestion>
+         <subquestion>
+            <id>141976654</id>
+            <grade>1.0</grade>
+            <mode>4</mode>
+            <name><![CDATA[Q2]]></name>
+            <maxima/>
+            <plugininfo/>
+            <shuffleAnswers>1</shuffleAnswers>
+            <schwierigkeit>0</schwierigkeit>
+            <answer>
+               <id>141976655</id>
+               <fraction>100.0</fraction>
+               <format><![CDATA[html]]></format>
+               <text><![CDATA[-100*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10)))-10*(floor(double(Z/N)*10^(1-floor(log(double(Z/N))/log(10))))-10*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10))))+floor(double(Z/N)*10^(2-floor(log(double(Z/N))/log(10))))]]></text>
+               <feedback/>
+               <tolerance><![CDATA[0%]]></tolerance>
+               <correctAnswerFormat>2</correctAnswerFormat>
+               <correctAnswerLength>5</correctAnswerLength>
+               <maxima><![CDATA[s3]]></maxima>
+               <answer><![CDATA[5]]></answer>
+               <einheit/>
+            </answer>
+         </subquestion>
+         <subquestion>
+            <id>141976714</id>
+            <grade>1.0</grade>
+            <mode>4</mode>
+            <name><![CDATA[Q3]]></name>
+            <maxima/>
+            <plugininfo/>
+            <shuffleAnswers>1</shuffleAnswers>
+            <schwierigkeit>0</schwierigkeit>
+            <answer>
+               <id>141976715</id>
+               <fraction>100.0</fraction>
+               <format><![CDATA[html]]></format>
+               <text><![CDATA[-1000*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10)))-100*(floor(double(Z/N)*10^(1-floor(log(double(Z/N))/log(10))))-10*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10))))-10*(-100*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10)))-10*(floor(double(Z/N)*10^(1-floor(log(double(Z/N))/log(10))))-10*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10))))+floor(double(Z/N)*10^(2-floor(log(double(Z/N))/log(10)))))+floor(double(Z/N)*10^(3-floor(log(double(Z/N))/log(10))))]]></text>
+               <feedback/>
+               <tolerance><![CDATA[0%]]></tolerance>
+               <correctAnswerFormat>2</correctAnswerFormat>
+               <correctAnswerLength>5</correctAnswerLength>
+               <maxima><![CDATA[s4]]></maxima>
+               <answer><![CDATA[7]]></answer>
+               <einheit/>
+            </answer>
+         </subquestion>
+         <subquestion>
+            <id>141976716</id>
+            <grade>1.0</grade>
+            <mode>4</mode>
+            <name><![CDATA[Q4]]></name>
+            <maxima/>
+            <plugininfo/>
+            <shuffleAnswers>1</shuffleAnswers>
+            <schwierigkeit>0</schwierigkeit>
+            <answer>
+               <id>141976717</id>
+               <fraction>100.0</fraction>
+               <format><![CDATA[html]]></format>
+               <text><![CDATA[-10000*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10)))-1000*(floor(double(Z/N)*10^(1-floor(log(double(Z/N))/log(10))))-10*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10))))-100*(-100*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10)))-10*(floor(double(Z/N)*10^(1-floor(log(double(Z/N))/log(10))))-10*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10))))+floor(double(Z/N)*10^(2-floor(log(double(Z/N))/log(10)))))-10*(-1000*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10)))-100*(floor(double(Z/N)*10^(1-floor(log(double(Z/N))/log(10))))-10*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10))))-10*(-100*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10)))-10*(floor(double(Z/N)*10^(1-floor(log(double(Z/N))/log(10))))-10*floor(double(Z/N)/10^floor(log(double(Z/N))/log(10))))+floor(double(Z/N)*10^(2-floor(log(double(Z/N))/log(10)))))+floor(double(Z/N)*10^(3-floor(log(double(Z/N))/log(10)))))+floor(double(Z/N)*10^(4-floor(log(double(Z/N))/log(10))))]]></text>
+               <feedback/>
+               <tolerance><![CDATA[0%]]></tolerance>
+               <correctAnswerFormat>2</correctAnswerFormat>
+               <correctAnswerLength>5</correctAnswerLength>
+               <maxima><![CDATA[s5]]></maxima>
+               <answer><![CDATA[1]]></answer>
+               <einheit/>
+            </answer>
+         </subquestion>
+         <subquestion>
+            <id>141976718</id>
+            <grade>0.0</grade>
+            <mode>4</mode>
+            <name><![CDATA[Q5]]></name>
+            <maxima/>
+            <plugininfo/>
+            <shuffleAnswers>1</shuffleAnswers>
+            <schwierigkeit>0</schwierigkeit>
+            <answer>
+               <id>141976719</id>
+               <fraction>100.0</fraction>
+               <format><![CDATA[html]]></format>
+               <text><![CDATA[ground(double(Z/N),4)]]></text>
+               <feedback/>
+               <tolerance><![CDATA[a0.00001]]></tolerance>
+               <correctAnswerFormat>2</correctAnswerFormat>
+               <correctAnswerLength>5</correctAnswerLength>
+               <maxima><![CDATA[f4]]></maxima>
+               <answer><![CDATA[0.2857]]></answer>
+               <einheit/>
+            </answer>
+         </subquestion>
+         <subquestion>
+            <id>141976720</id>
+            <grade>1.0</grade>
+            <mode>0</mode>
+            <name><![CDATA[Q6]]></name>
+            <maxima/>
+            <plugininfo/>
+            <shuffleAnswers>1</shuffleAnswers>
+            <schwierigkeit>0</schwierigkeit>
+            <answer>
+               <id>141976721</id>
+               <fraction>100.0</fraction>
+               <format><![CDATA[html]]></format>
+               <text><![CDATA[um 1 erhöht]]></text>
+               <feedback/>
+               <tolerance><![CDATA[1%]]></tolerance>
+               <correctAnswerFormat>2</correctAnswerFormat>
+               <correctAnswerLength>5</correctAnswerLength>
+               <maxima/>
+               <answer/>
+               <einheit/>
+            </answer>
+            <answer>
+               <id>141976722</id>
+               <fraction>-100.0</fraction>
+               <format><![CDATA[html]]></format>
+               <text><![CDATA[gleich gelassen]]></text>
+               <feedback/>
+               <tolerance><![CDATA[1.0%]]></tolerance>
+               <correctAnswerFormat>2</correctAnswerFormat>
+               <correctAnswerLength>5</correctAnswerLength>
+               <maxima/>
+               <answer/>
+               <einheit/>
+            </answer>
+            <answer>
+               <id>141976723</id>
+               <fraction>-100.0</fraction>
+               <format><![CDATA[html]]></format>
+               <text><![CDATA[um 1 vermindert]]></text>
+               <feedback/>
+               <tolerance><![CDATA[1.0%]]></tolerance>
+               <correctAnswerFormat>2</correctAnswerFormat>
+               <correctAnswerLength>5</correctAnswerLength>
+               <maxima/>
+               <answer/>
+               <einheit/>
+            </answer>
+         </subquestion>
+         <subquestion>
+            <id>141976724</id>
+            <grade>1.0</grade>
+            <mode>0</mode>
+            <name><![CDATA[Q7]]></name>
+            <maxima/>
+            <plugininfo/>
+            <shuffleAnswers>1</shuffleAnswers>
+            <schwierigkeit>0</schwierigkeit>
+            <answer>
+               <id>141976725</id>
+               <fraction>100.0</fraction>
+               <format><![CDATA[html]]></format>
+               <text><![CDATA[gleich gelassen]]></text>
+               <feedback/>
+               <tolerance><![CDATA[1%]]></tolerance>
+               <correctAnswerFormat>2</correctAnswerFormat>
+               <correctAnswerLength>5</correctAnswerLength>
+               <maxima/>
+               <answer/>
+               <einheit/>
+            </answer>
+            <answer>
+               <id>141976726</id>
+               <fraction>-100.0</fraction>
+               <format><![CDATA[html]]></format>
+               <text><![CDATA[um 1 vermindert]]></text>
+               <feedback/>
+               <tolerance><![CDATA[1.0%]]></tolerance>
+               <correctAnswerFormat>2</correctAnswerFormat>
+               <correctAnswerLength>5</correctAnswerLength>
+               <maxima/>
+               <answer/>
+               <einheit/>
+            </answer>
+            <answer>
+               <id>141976727</id>
+               <fraction>-100.0</fraction>
+               <format><![CDATA[html]]></format>
+               <text><![CDATA[um 1 erhöht]]></text>
+               <feedback/>
+               <tolerance><![CDATA[1.0%]]></tolerance>
+               <correctAnswerFormat>2</correctAnswerFormat>
+               <correctAnswerLength>5</correctAnswerLength>
+               <maxima/>
+               <answer/>
+               <einheit/>
+            </answer>
+         </subquestion>
+         <subquestion>
+            <id>142356675</id>
+            <grade>1.0</grade>
+            <mode>5</mode>
+            <name><![CDATA[Q8]]></name>
+            <maxima/>
+            <plugininfo/>
+            <shuffleAnswers>1</shuffleAnswers>
+            <schwierigkeit>0</schwierigkeit>
+            <answer>
+               <id>142356676</id>
+               <fraction>100.0</fraction>
+               <format><![CDATA[html]]></format>
+               <text><![CDATA[abs(ground(double(Z/N),4)-Q5) < 1.0E-8]]></text>
+               <feedback/>
+               <tolerance><![CDATA[1%]]></tolerance>
+               <correctAnswerFormat>2</correctAnswerFormat>
+               <correctAnswerLength>5</correctAnswerLength>
+               <maxima><![CDATA[abs(Q5-f4)<1E-8]]></maxima>
+               <answer/>
+               <einheit/>
+            </answer>
+         </subquestion>
+         <dataset>
+            <id>141976616</id>
+            <status><![CDATA[shared]]></status>
+            <name><![CDATA[Z]]></name>
+            <type><![CDATA[calculated]]></type>
+            <distribution><![CDATA[uniform]]></distribution>
+            <minimum><![CDATA[1]]></minimum>
+            <maximum><![CDATA[6]]></maximum>
+            <decimals><![CDATA[3]]></decimals>
+            <itemcount>40</itemcount>
+            <zahlenbereich><![CDATA[I:1-6]]></zahlenbereich>
+            <ziffern>13</ziffern>
+            <einheit/>
+            <items><![CDATA[2;6;6;5;5;2;6;5;3;5;3;1;4;1;6;5;6;6;6;2;3;3;1;6;6;3;5;1;6;3;4;2;3;6;3;4;4;6;2;4]]></items>
+         </dataset>
+         <dataset>
+            <id>141976617</id>
+            <status><![CDATA[shared]]></status>
+            <name><![CDATA[N]]></name>
+            <type><![CDATA[calculated]]></type>
+            <distribution><![CDATA[uniform]]></distribution>
+            <minimum><![CDATA[7]]></minimum>
+            <maximum><![CDATA[7]]></maximum>
+            <decimals><![CDATA[3]]></decimals>
+            <itemcount>40</itemcount>
+            <zahlenbereich><![CDATA[7]]></zahlenbereich>
+            <ziffern>13</ziffern>
+            <einheit/>
+            <items><![CDATA[7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7;7]]></items>
+         </dataset>
+      </question>
+      <question type="MoodleClozeCalc">
          <id>142443244</id>
          <idUser>1836</idUser>
          <questionType>22</questionType>
@@ -47,6 +428,8 @@ Z2 : f2 * 10^z2]]></maxima>
          <onRamp>false</onRamp>
          <jsonMap><![CDATA[{}]]></jsonMap>
          <changeLogMap><![CDATA[{}]]></changeLogMap>
+         <questionCommentMsg/>
+         <questionCommentIcon>REVIEWED</questionCommentIcon>
          <text art="Questiontext" id="142443245" format="html">         <inhalt><![CDATA[<h1>Zehnerpotenzen</h1>
 
 <p>Zehnerpotenzen sind Ausdr&uuml;cke in der Form $10^a$, wobei $a$ eine&nbsp;<strong>ganze Zahl </strong>ist.</p>
@@ -498,6 +881,8 @@ b2 : a2 + ba2
          <onRamp>false</onRamp>
          <jsonMap><![CDATA[{}]]></jsonMap>
          <changeLogMap><![CDATA[{}]]></changeLogMap>
+         <questionCommentMsg/>
+         <questionCommentIcon>REVIEWED</questionCommentIcon>
          <text art="Questiontext" id="142443482" format="html">         <inhalt><![CDATA[<h1>Rechenregeln von Zehnerpotenzen</h1>
 
 <h2>1 Produkt von Zehnerpotenzen</h2>
@@ -900,172 +1285,6 @@ b2 : a2 + ba2
          </dataset>
       </question>
       <question type="MoodleClozeCalc">
-         <id>142473865</id>
-         <idUser>1836</idUser>
-         <questionType>22</questionType>
-         <name><![CDATA[Zehnerpotenzen 1]]></name>
-         <punkte>3.0</punkte>
-         <penalty/>
-         <hidden>0</hidden>
-         <tag/>
-         <noAutoCorrect>0</noAutoCorrect>
-         <usecase>0</usecase>
-         <synchronize>0</synchronize>
-         <shuffleAnswers>1</shuffleAnswers>
-         <answerNumbering><![CDATA[abc]]></answerNumbering>
-         <unitGradingType>2</unitGradingType>
-         <unitPenalty>0.1</unitPenalty>
-         <showUnits>0</showUnits>
-         <unitsLeft>0</unitsLeft>
-         <maxima><![CDATA[b2 : a2 + ba2
-Za2 : 10^a2
-Zb2 : 10^b2
-
-]]></maxima>
-         <maximaAngabe><![CDATA[;::;Za2:10^a2;Zb2:10^(ba2+a2);b2:ba2+a2;]]></maximaAngabe>
-         <responseFormat><![CDATA[editor]]></responseFormat>
-         <responseFieldLines>10</responseFieldLines>
-         <attachments>3</attachments>
-         <md5/>
-         <units/>
-         <plugins/>
-         <sendToParser>false</sendToParser>
-         <preCalc>false</preCalc>
-         <streng>false</streng>
-         <licenceKey />
-         <konstanteMitProzent>true</konstanteMitProzent>
-         <useSymbolicMode>false</useSymbolicMode>
-         <addDocumentsPossible>false</addDocumentsPossible>
-         <info/>
-         <randomDataset>false</randomDataset>
-         <creationDate></creationDate>
-         <lastChange></lastChange>
-         <security/>
-         <copyright/>
-         <onRamp>false</onRamp>
-         <jsonMap><![CDATA[{}]]></jsonMap>
-         <changeLogMap><![CDATA[{}]]></changeLogMap>
-         <questionCommentMsg/>
-         <questionCommentIcon>REVIEWED</questionCommentIcon>
-         <text art="Questiontext" id="142473870" format="html">         <inhalt><![CDATA[<h2>Grundlegende Aufgabe</h2>
-
-<p>(a) Bestimmen Sie $(10^{ {=a2}}) \cdot ( 10^{ {=b2}}) =&nbsp;$ [Q0]</p>
-
-<p>(b)&nbsp;Bestimmen Sie $\dfrac{1}{10^{ {a2}}}&nbsp;= $&nbsp;[Q1]&nbsp;</p>
-
-<p>(c)&nbsp;Bestimmen Sie $\dfrac{10^{ {=a2}}} {10^{ {=b2}}} =&nbsp;$ [Q2]</p>]]></inhalt>
-</text>
-         <text art="general feedback" id="142473871" format="html">         <inhalt/>
-</text>
-         <text art="correct feedback" id="142473872" format="html">         <inhalt/>
-</text>
-         <text art="partially correct feedback" id="142473873" format="html">         <inhalt/>
-</text>
-         <text art="incorrect feedback" id="142473874" format="html">         <inhalt/>
-</text>
-         <text art="grader info" id="142473875" format="html">         <inhalt/>
-</text>
-         <subquestion>
-            <id>142473876</id>
-            <grade>1.0</grade>
-            <mode>4</mode>
-            <name><![CDATA[Q0]]></name>
-            <maxima/>
-            <plugininfo/>
-            <shuffleAnswers>1</shuffleAnswers>
-            <schwierigkeit>0</schwierigkeit>
-            <answer>
-               <id>142473877</id>
-               <fraction>100.0</fraction>
-               <format><![CDATA[html]]></format>
-               <text><![CDATA[10^(ba2+2*a2)]]></text>
-               <feedback/>
-               <tolerance><![CDATA[1%]]></tolerance>
-               <correctAnswerFormat>2</correctAnswerFormat>
-               <correctAnswerLength>5</correctAnswerLength>
-               <maxima><![CDATA[Za2 * Zb2]]></maxima>
-               <answer><![CDATA[1E-10]]></answer>
-               <einheit/>
-            </answer>
-         </subquestion>
-         <subquestion>
-            <id>142473878</id>
-            <grade>1.0</grade>
-            <mode>4</mode>
-            <name><![CDATA[Q1]]></name>
-            <maxima/>
-            <plugininfo/>
-            <shuffleAnswers>1</shuffleAnswers>
-            <schwierigkeit>0</schwierigkeit>
-            <answer>
-               <id>142473879</id>
-               <fraction>100.0</fraction>
-               <format><![CDATA[html]]></format>
-               <text><![CDATA[1/10^a2]]></text>
-               <feedback/>
-               <tolerance><![CDATA[1%]]></tolerance>
-               <correctAnswerFormat>2</correctAnswerFormat>
-               <correctAnswerLength>5</correctAnswerLength>
-               <maxima><![CDATA[1 / Za2]]></maxima>
-               <answer><![CDATA[10000]]></answer>
-               <einheit/>
-            </answer>
-         </subquestion>
-         <subquestion>
-            <id>142473880</id>
-            <grade>1.0</grade>
-            <mode>4</mode>
-            <name><![CDATA[Q2]]></name>
-            <maxima/>
-            <plugininfo/>
-            <shuffleAnswers>1</shuffleAnswers>
-            <schwierigkeit>0</schwierigkeit>
-            <answer>
-               <id>142473881</id>
-               <fraction>100.0</fraction>
-               <format><![CDATA[html]]></format>
-               <text><![CDATA[1/10^ba2]]></text>
-               <feedback/>
-               <tolerance><![CDATA[1%]]></tolerance>
-               <correctAnswerFormat>2</correctAnswerFormat>
-               <correctAnswerLength>5</correctAnswerLength>
-               <maxima><![CDATA[Za2 / Zb2]]></maxima>
-               <answer><![CDATA[100]]></answer>
-               <einheit/>
-            </answer>
-         </subquestion>
-         <dataset>
-            <id>142473866</id>
-            <status><![CDATA[shared]]></status>
-            <name><![CDATA[a2]]></name>
-            <type><![CDATA[calculated]]></type>
-            <distribution><![CDATA[uniform]]></distribution>
-            <minimum><![CDATA[-4]]></minimum>
-            <maximum><![CDATA[4]]></maximum>
-            <decimals><![CDATA[0]]></decimals>
-            <itemcount>40</itemcount>
-            <zahlenbereich><![CDATA[sI:-4,-3,3,4]]></zahlenbereich>
-            <ziffern>13</ziffern>
-            <einheit/>
-            <items><![CDATA[-4;-3;3;4]]></items>
-         </dataset>
-         <dataset>
-            <id>142473867</id>
-            <status><![CDATA[shared]]></status>
-            <name><![CDATA[ba2]]></name>
-            <type><![CDATA[calculated]]></type>
-            <distribution><![CDATA[uniform]]></distribution>
-            <minimum><![CDATA[1]]></minimum>
-            <maximum><![CDATA[2]]></maximum>
-            <decimals><![CDATA[3]]></decimals>
-            <itemcount>40</itemcount>
-            <zahlenbereich><![CDATA[-2,-1,1,2]]></zahlenbereich>
-            <ziffern>13</ziffern>
-            <einheit/>
-            <items><![CDATA[-2;-2;2;2;-2;-1;-1;1;-2;-1;-2;-1;1;2;-1;2;-1;-1;2;1;1;2;2;2;1;2;-2;1;2;1;1;-1;2;-1;-1;1;-2;-2;-2;1]]></items>
-         </dataset>
-      </question>
-      <question type="MoodleClozeCalc">
          <id>142467564</id>
          <idUser>1836</idUser>
          <questionType>22</questionType>
@@ -1115,6 +1334,8 @@ Zb2 : fb2 * 10^b2
          <onRamp>false</onRamp>
          <jsonMap><![CDATA[{}]]></jsonMap>
          <changeLogMap><![CDATA[{}]]></changeLogMap>
+         <questionCommentMsg/>
+         <questionCommentIcon>REVIEWED</questionCommentIcon>
          <text art="Questiontext" id="142467569" format="html">         <inhalt><![CDATA[<h1>Rechenregeln von Produkten aus Zahlen und Zehnerpotenzen</h1>
 
 <p>Wir betrachten jetzt Zahlen in der Form&nbsp;<strong>Zahlenwert&nbsp;</strong>$\cdot$&nbsp;<strong>Zehnerpotenz</strong></p>
@@ -1504,6 +1725,172 @@ Zb2 : fb2 * 10^b2
             <ziffern>4</ziffern>
             <einheit/>
             <items><![CDATA[6.733;8.518;6.733;4.016;3.482;5.219;8.865;4.904;7.351;3.614;4.848;4.848;7.079;7.986;3.614;4.627;4.626;4.375;9.011;7.351;6.733;4.179;7.006;4.626;2.799;8.518;2.031;1.828;2.743;2.743;2.743;5.201;5.201;2.167;6.119;3.983;4.626;7.079;7.351;7.351]]></items>
+         </dataset>
+      </question>
+      <question type="MoodleClozeCalc">
+         <id>142473865</id>
+         <idUser>1836</idUser>
+         <questionType>22</questionType>
+         <name><![CDATA[Zehnerpotenzen 1]]></name>
+         <punkte>3.0</punkte>
+         <penalty/>
+         <hidden>0</hidden>
+         <tag/>
+         <noAutoCorrect>0</noAutoCorrect>
+         <usecase>0</usecase>
+         <synchronize>0</synchronize>
+         <shuffleAnswers>1</shuffleAnswers>
+         <answerNumbering><![CDATA[abc]]></answerNumbering>
+         <unitGradingType>2</unitGradingType>
+         <unitPenalty>0.1</unitPenalty>
+         <showUnits>0</showUnits>
+         <unitsLeft>0</unitsLeft>
+         <maxima><![CDATA[b2 : a2 + ba2
+Za2 : 10^a2
+Zb2 : 10^b2
+
+]]></maxima>
+         <maximaAngabe><![CDATA[;::;Za2:10^a2;Zb2:10^(ba2+a2);b2:ba2+a2;]]></maximaAngabe>
+         <responseFormat><![CDATA[editor]]></responseFormat>
+         <responseFieldLines>10</responseFieldLines>
+         <attachments>3</attachments>
+         <md5/>
+         <units/>
+         <plugins/>
+         <sendToParser>false</sendToParser>
+         <preCalc>false</preCalc>
+         <streng>false</streng>
+         <licenceKey />
+         <konstanteMitProzent>true</konstanteMitProzent>
+         <useSymbolicMode>false</useSymbolicMode>
+         <addDocumentsPossible>false</addDocumentsPossible>
+         <info/>
+         <randomDataset>false</randomDataset>
+         <creationDate></creationDate>
+         <lastChange></lastChange>
+         <security/>
+         <copyright/>
+         <onRamp>false</onRamp>
+         <jsonMap><![CDATA[{}]]></jsonMap>
+         <changeLogMap><![CDATA[{}]]></changeLogMap>
+         <questionCommentMsg/>
+         <questionCommentIcon>REVIEWED</questionCommentIcon>
+         <text art="Questiontext" id="142473870" format="html">         <inhalt><![CDATA[<h2>Grundlegende Aufgabe</h2>
+
+<p>(a) Bestimmen Sie $(10^{ {=a2}}) \cdot ( 10^{ {=b2}}) =&nbsp;$ [Q0]</p>
+
+<p>(b)&nbsp;Bestimmen Sie $\dfrac{1}{10^{ {a2}}}&nbsp;= $&nbsp;[Q1]&nbsp;</p>
+
+<p>(c)&nbsp;Bestimmen Sie $\dfrac{10^{ {=a2}}} {10^{ {=b2}}} =&nbsp;$ [Q2]</p>]]></inhalt>
+</text>
+         <text art="general feedback" id="142473871" format="html">         <inhalt/>
+</text>
+         <text art="correct feedback" id="142473872" format="html">         <inhalt/>
+</text>
+         <text art="partially correct feedback" id="142473873" format="html">         <inhalt/>
+</text>
+         <text art="incorrect feedback" id="142473874" format="html">         <inhalt/>
+</text>
+         <text art="grader info" id="142473875" format="html">         <inhalt/>
+</text>
+         <subquestion>
+            <id>142473876</id>
+            <grade>1.0</grade>
+            <mode>4</mode>
+            <name><![CDATA[Q0]]></name>
+            <maxima/>
+            <plugininfo/>
+            <shuffleAnswers>1</shuffleAnswers>
+            <schwierigkeit>0</schwierigkeit>
+            <answer>
+               <id>142473877</id>
+               <fraction>100.0</fraction>
+               <format><![CDATA[html]]></format>
+               <text><![CDATA[10^(ba2+2*a2)]]></text>
+               <feedback/>
+               <tolerance><![CDATA[1%]]></tolerance>
+               <correctAnswerFormat>2</correctAnswerFormat>
+               <correctAnswerLength>5</correctAnswerLength>
+               <maxima><![CDATA[Za2 * Zb2]]></maxima>
+               <answer><![CDATA[1E-10]]></answer>
+               <einheit/>
+            </answer>
+         </subquestion>
+         <subquestion>
+            <id>142473878</id>
+            <grade>1.0</grade>
+            <mode>4</mode>
+            <name><![CDATA[Q1]]></name>
+            <maxima/>
+            <plugininfo/>
+            <shuffleAnswers>1</shuffleAnswers>
+            <schwierigkeit>0</schwierigkeit>
+            <answer>
+               <id>142473879</id>
+               <fraction>100.0</fraction>
+               <format><![CDATA[html]]></format>
+               <text><![CDATA[1/10^a2]]></text>
+               <feedback/>
+               <tolerance><![CDATA[1%]]></tolerance>
+               <correctAnswerFormat>2</correctAnswerFormat>
+               <correctAnswerLength>5</correctAnswerLength>
+               <maxima><![CDATA[1 / Za2]]></maxima>
+               <answer><![CDATA[10000]]></answer>
+               <einheit/>
+            </answer>
+         </subquestion>
+         <subquestion>
+            <id>142473880</id>
+            <grade>1.0</grade>
+            <mode>4</mode>
+            <name><![CDATA[Q2]]></name>
+            <maxima/>
+            <plugininfo/>
+            <shuffleAnswers>1</shuffleAnswers>
+            <schwierigkeit>0</schwierigkeit>
+            <answer>
+               <id>142473881</id>
+               <fraction>100.0</fraction>
+               <format><![CDATA[html]]></format>
+               <text><![CDATA[1/10^ba2]]></text>
+               <feedback/>
+               <tolerance><![CDATA[1%]]></tolerance>
+               <correctAnswerFormat>2</correctAnswerFormat>
+               <correctAnswerLength>5</correctAnswerLength>
+               <maxima><![CDATA[Za2 / Zb2]]></maxima>
+               <answer><![CDATA[100]]></answer>
+               <einheit/>
+            </answer>
+         </subquestion>
+         <dataset>
+            <id>142473866</id>
+            <status><![CDATA[shared]]></status>
+            <name><![CDATA[a2]]></name>
+            <type><![CDATA[calculated]]></type>
+            <distribution><![CDATA[uniform]]></distribution>
+            <minimum><![CDATA[-4]]></minimum>
+            <maximum><![CDATA[4]]></maximum>
+            <decimals><![CDATA[0]]></decimals>
+            <itemcount>40</itemcount>
+            <zahlenbereich><![CDATA[sI:-4,-3,3,4]]></zahlenbereich>
+            <ziffern>13</ziffern>
+            <einheit/>
+            <items><![CDATA[-4;-3;3;4]]></items>
+         </dataset>
+         <dataset>
+            <id>142473867</id>
+            <status><![CDATA[shared]]></status>
+            <name><![CDATA[ba2]]></name>
+            <type><![CDATA[calculated]]></type>
+            <distribution><![CDATA[uniform]]></distribution>
+            <minimum><![CDATA[1]]></minimum>
+            <maximum><![CDATA[2]]></maximum>
+            <decimals><![CDATA[3]]></decimals>
+            <itemcount>40</itemcount>
+            <zahlenbereich><![CDATA[-2,-1,1,2]]></zahlenbereich>
+            <ziffern>13</ziffern>
+            <einheit/>
+            <items><![CDATA[-2;-2;2;2;-2;-1;-1;1;-2;-1;-2;-1;1;2;-1;2;-1;-1;2;1;1;2;2;2;1;2;-2;1;2;1;1;-1;2;-1;-1;1;-2;-2;-2;1]]></items>
          </dataset>
       </question>
       <question type="MoodleClozeCalc">
@@ -8474,7 +8861,7 @@ u20 : 10^upotenz2
 
 <p>Geben Sie die L&auml;nge {=L;=cm,f4} mit folgenden Einheiten an:</p>
 
-<p>(a) Milimeter [Q2]</p>
+<p>(a) Millimeter [Q2]</p>
 
 <p>(b) Mikrometer [Q1]</p>
 
@@ -8644,7 +9031,7 @@ u20 : 10^upotenz2
 
 <p>(b) Dezimeter [Q1]</p>
 
-<p>(c) Kliometer&nbsp;[Q2]&nbsp;</p>
+<p>(c) Kilometer&nbsp;[Q2]&nbsp;</p>
 ]]></inhalt>
 </text>
          <text art="general feedback" id="11905423" format="html">         <inhalt/>
@@ -10047,7 +10434,7 @@ u20 : 10^upotenz2
 
 <p>(b) Kubikmeter [Q1]</p>
 
-<p>(c) Kubikmilimeter&nbsp;[Q2]&nbsp;</p>
+<p>(c) Kubikmillimeter&nbsp;[Q2]&nbsp;</p>
 ]]></inhalt>
 </text>
          <text art="general feedback" id="11905601" format="html">         <inhalt/>
@@ -10212,7 +10599,7 @@ u20 : 10^upotenz2
 
 <p>(b) Kubikmeter [Q1]</p>
 
-<p>(c) Kubikmilimeter&nbsp;[Q2]&nbsp;</p>
+<p>(c) Kubikmillimeter&nbsp;[Q2]&nbsp;</p>
 ]]></inhalt>
 </text>
          <text art="general feedback" id="11906039" format="html">         <inhalt/>
@@ -10238,13 +10625,13 @@ u20 : 10^upotenz2
                <id>11906049</id>
                <fraction>100.0</fraction>
                <format><![CDATA[html]]></format>
-               <text><![CDATA[10^potenz*v]]></text>
+               <text><![CDATA[(1.4E9)cm3]]></text>
                <feedback/>
                <tolerance><![CDATA[1.0%]]></tolerance>
                <correctAnswerFormat>2</correctAnswerFormat>
                <correctAnswerLength>5</correctAnswerLength>
                <maxima><![CDATA[V]]></maxima>
-               <answer><![CDATA[(2.67E9)cm3]]></answer>
+               <answer><![CDATA[(1.4E9)cm3]]></answer>
                <einheit><![CDATA[=cm3]]></einheit>
             </answer>
          </subquestion>
@@ -10261,13 +10648,13 @@ u20 : 10^upotenz2
                <id>11906047</id>
                <fraction>100.0</fraction>
                <format><![CDATA[html]]></format>
-               <text><![CDATA[10^potenz*v]]></text>
+               <text><![CDATA[1400m3]]></text>
                <feedback/>
                <tolerance><![CDATA[1.0%]]></tolerance>
                <correctAnswerFormat>2</correctAnswerFormat>
                <correctAnswerLength>5</correctAnswerLength>
                <maxima><![CDATA[V]]></maxima>
-               <answer><![CDATA[2670m3]]></answer>
+               <answer><![CDATA[1400m3]]></answer>
                <einheit><![CDATA[=m3]]></einheit>
             </answer>
          </subquestion>
@@ -10284,13 +10671,13 @@ u20 : 10^upotenz2
                <id>11906045</id>
                <fraction>100.0</fraction>
                <format><![CDATA[html]]></format>
-               <text><![CDATA[10^potenz*v]]></text>
+               <text><![CDATA[(1.4E12)mm3]]></text>
                <feedback/>
                <tolerance><![CDATA[1.0%]]></tolerance>
                <correctAnswerFormat>2</correctAnswerFormat>
                <correctAnswerLength>5</correctAnswerLength>
                <maxima><![CDATA[V]]></maxima>
-               <answer><![CDATA[(2.67E12)mm3]]></answer>
+               <answer><![CDATA[(1.4E12)mm3]]></answer>
                <einheit><![CDATA[=mm3]]></einheit>
             </answer>
          </subquestion>
@@ -10377,7 +10764,7 @@ u20 : 10^upotenz2
 
 <p>(b) Kubikdezimeter [Q1]</p>
 
-<p>(c) Kubikmilimeter&nbsp;[Q2]&nbsp;</p>
+<p>(c) Kubikmillimeter&nbsp;[Q2]&nbsp;</p>
 ]]></inhalt>
 </text>
          <text art="general feedback" id="11906073" format="html">         <inhalt/>
@@ -10541,9 +10928,10 @@ u20 : 10^upotenz2
 
 <p>(a) Millisekunden [Q0]</p>
 
-<p>(b) Microsekunden [Q1]</p>
+<p>(b) Mikrosekunden [Q1]</p>
 
-<p>(c) Nanosekunden [Q2]&nbsp;</p>]]></inhalt>
+<p>(c) Nanosekunden [Q2]&nbsp;</p>
+]]></inhalt>
 </text>
          <text art="general feedback" id="11892124" format="html">         <inhalt/>
 </text>
@@ -10574,7 +10962,7 @@ u20 : 10^upotenz2
                <correctAnswerFormat>2</correctAnswerFormat>
                <correctAnswerLength>5</correctAnswerLength>
                <maxima><![CDATA[T]]></maxima>
-               <answer><![CDATA[37800ms]]></answer>
+               <answer><![CDATA[0.378ms]]></answer>
                <einheit><![CDATA[=ms]]></einheit>
             </answer>
          </subquestion>
@@ -10597,7 +10985,7 @@ u20 : 10^upotenz2
                <correctAnswerFormat>2</correctAnswerFormat>
                <correctAnswerLength>5</correctAnswerLength>
                <maxima><![CDATA[T]]></maxima>
-               <answer><![CDATA[3.78E7us]]></answer>
+               <answer><![CDATA[378us]]></answer>
                <einheit><![CDATA[=us]]></einheit>
             </answer>
          </subquestion>
@@ -10620,7 +11008,7 @@ u20 : 10^upotenz2
                <correctAnswerFormat>2</correctAnswerFormat>
                <correctAnswerLength>5</correctAnswerLength>
                <maxima><![CDATA[T]]></maxima>
-               <answer><![CDATA[3.78E10ns]]></answer>
+               <answer><![CDATA[(3.78E5)ns]]></answer>
                <einheit><![CDATA[=ns]]></einheit>
             </answer>
          </subquestion>
@@ -10707,7 +11095,7 @@ u20 : 10^upotenz2
 
 <p>(a) Sekunden [Q2]</p>
 
-<p>(b) Microsekunden [Q1]</p>
+<p>(b) Mikrosekunden [Q1]</p>
 
 <p>(c) Nanosekunden [Q0]&nbsp;</p>
 ]]></inhalt>

@@ -12,7 +12,7 @@ Das Fachbuch wird im [Carl Hanser Verlag](https://www.hanser-fachbuch.de/fachbuc
 
 <img src="https://res.cloudinary.com/literaturverlage/image/upload/MAM/Image/ARTK_CT0_9783446481664_0001.jpg" width="300"/>
 
-# Das Repository zum Buch
+# Das Repository zu beiden Büchern
 
 Verwenden Sie diese Repository für **Feedback**, falls
 - sich Fehler eingeschlichen haben,

@@ -1,0 +1,4246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<letto mode="101" databaseinfo="sql">
+<category>
+   <name><![CDATA[2 Potenz und Logarithmus]]></name>
+   <category>
+      <name><![CDATA[2.1 Basis 10]]></name>
+      <category>
+         <name><![CDATA[2.1.1 Zehnerpotenz]]></name>
+         <question type="MoodleClozeCalc">
+            <id>158672215</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Zehnerpotenz mult 1]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima/>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733568" format="">            <inhalt><![CDATA[<p>Verwenden SIe die Schreibweise $\mathtt{1E2}$ um $10^2$ darzustellen:</p>
+
+<p>Bestimmen Sie $10^{ {=a}} \cdot 10^{ {=b}} = $&nbsp;[Q0] in einer Darstellung mit $\mathtt{E}$</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733569" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733570" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733571" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733572" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733573" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704676</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729203</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[1E5]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[10^(a+b)]]></maxima>
+                  <answer><![CDATA[1E5]]></answer>
+                  <einheit><![CDATA[=e0]]></einheit>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699247</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[1]]></minimum>
+               <maximum><![CDATA[4]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:1-4]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[3;4;1;3;2;1;1;4;3;2;3;3;4;3;4;3;1;1;2;1;1;1;2;3;4;1;3;2;4;1;2;1;4;2;4;4;3;2;3;1]]></items>
+            </dataset>
+            <dataset>
+               <id>158699248</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[b]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[1]]></minimum>
+               <maximum><![CDATA[4]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:1-4]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[2;2;3;3;4;2;2;1;2;3;3;3;4;2;1;2;1;1;3;1;2;3;3;4;3;2;2;1;4;1;1;2;2;4;4;1;1;2;1;2]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672216</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Zehnerpotenz mult 2]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima/>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733574" format="">            <inhalt><![CDATA[<p>Verwenden SIe die Schreibweise $\mathtt{1E2}$ um $10^2$ darzustellen:</p>
+
+<p>Bestimmen Sie $10^{ {=a}} \cdot 10^{ {=b}} = $&nbsp;[Q0] in einer Darstellung mit $\mathtt{E}$</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733575" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733576" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733577" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733578" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733579" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704677</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729204</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[1E-4]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[10^(a+b)]]></maxima>
+                  <answer><![CDATA[1E-4]]></answer>
+                  <einheit><![CDATA[=e0]]></einheit>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699249</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[1]]></minimum>
+               <maximum><![CDATA[4]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:-4--1]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[-3;-4;-2;-4;-2;-3;-1;-1;-4;-3;-1;-2;-4;-2;-2;-1;-1;-1;-3;-2;-4;-2;-2;-3;-2;-2;-1;-1;-1;-3;-4;-2;-3;-4;-3;-1;-1;-3;-3;-4]]></items>
+            </dataset>
+            <dataset>
+               <id>158699250</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[b]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[1]]></minimum>
+               <maximum><![CDATA[4]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:-4--1]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[-1;-4;-4;-2;-3;-1;-1;-3;-1;-4;-1;-2;-4;-4;-1;-2;-4;-2;-1;-2;-3;-3;-3;-3;-4;-4;-3;-4;-4;-1;-3;-2;-4;-4;-3;-4;-4;-4;-4;-1]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672217</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Zehnerpotenz mult 3]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima/>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733580" format="">            <inhalt><![CDATA[<p>Verwenden SIe die Schreibweise $\mathtt{1E2}$ um $10^2$ darzustellen:</p>
+
+<p>Bestimmen Sie $10^{ {=a}} \cdot 10^{ {=b}} = $&nbsp;[Q0] in einer Darstellung mit $\mathtt{E}$</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733581" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733582" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733583" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733584" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733585" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704678</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729205</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[1E4]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[10^(a+b)]]></maxima>
+                  <answer><![CDATA[1E4]]></answer>
+                  <einheit><![CDATA[=e0]]></einheit>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699251</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[1]]></minimum>
+               <maximum><![CDATA[4]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:-4--1]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[-3;-4;-2;-4;-2;-3;-1;-1;-4;-3;-1;-2;-4;-2;-2;-1;-1;-1;-3;-2;-4;-2;-2;-3;-2;-2;-1;-1;-1;-3;-4;-2;-3;-4;-3;-1;-1;-3;-3;-4]]></items>
+            </dataset>
+            <dataset>
+               <id>158699252</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[b]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[5]]></minimum>
+               <maximum><![CDATA[8]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I5-8]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[7;6;7;8;8;8;5;6;7;8;7;5;8;8;6;6;6;8;8;6;6;5;5;8;6;8;5;8;6;8;5;6;6;6;5;6;8;6;5;7]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672218</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Zehnerpotenz div 1]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima/>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733586" format="">            <inhalt><![CDATA[<p>Verwenden SIe die Schreibweise $\mathtt{1E2}$ um $10^2$ darzustellen.</p>
+
+<p>Bestimmen Sie $\dfrac{10^{ {=a}}}{10^{ {=b}}} = $&nbsp;[Q0] in einer Darstellung mit $\mathtt{E}$</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733587" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733588" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733589" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733590" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733591" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704679</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729206</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[1E4]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[10^(a-b)]]></maxima>
+                  <answer><![CDATA[1E4]]></answer>
+                  <einheit><![CDATA[=e0]]></einheit>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699253</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[5]]></minimum>
+               <maximum><![CDATA[8]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:5-8]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[6;8;7;7;6;6;8;5;7;5;8;7;7;7;6;7;5;6;7;6;8;7;7;6;5;5;5;7;8;8;5;6;7;5;8;6;7;7;5;7]]></items>
+            </dataset>
+            <dataset>
+               <id>158699254</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[b]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[1]]></minimum>
+               <maximum><![CDATA[4]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:1-4]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[2;2;3;3;4;2;2;1;2;3;3;3;4;2;1;2;1;1;3;1;2;3;3;4;3;2;2;1;4;1;1;2;2;4;4;1;1;2;1;2]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672219</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Zehnerpotenz div 2]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima/>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733592" format="">            <inhalt><![CDATA[<p>Verwenden SIe die Schreibweise $\mathtt{1E2}$ um $10^2$ darzustellen.</p>
+
+<p>Bestimmen Sie $\dfrac{10^{ {=a}}}{10^{ {=b}}} = $&nbsp;[Q0] in einer Darstellung mit $\mathtt{E}$</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733593" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733594" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733595" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733596" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733597" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704680</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729207</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[1E5]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[10^(a-b)]]></maxima>
+                  <answer><![CDATA[1E5]]></answer>
+                  <einheit><![CDATA[=e0]]></einheit>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699255</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[1]]></minimum>
+               <maximum><![CDATA[5]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:1-5]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[3;4;4;1;3;1;3;3;4;4;4;1;3;2;1;3;3;3;1;5;3;5;2;2;4;2;5;4;2;2;2;4;4;3;3;3;3;2;1;4]]></items>
+            </dataset>
+            <dataset>
+               <id>158699256</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[b]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[1]]></minimum>
+               <maximum><![CDATA[4]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:-4--1]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[-2;-4;-1;-2;-4;-2;-2;-3;-1;-3;-4;-2;-4;-4;-1;-4;-2;-1;-3;-4;-2;-2;-3;-1;-1;-3;-1;-1;-3;-3;-4;-3;-1;-1;-3;-4;-4;-3;-3;-2]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672220</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Zehnerpotenz div 3]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima/>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733598" format="">            <inhalt><![CDATA[<p>Verwenden SIe die Schreibweise $\mathtt{1E2}$ um $10^2$ darzustellen.</p>
+
+<p>Bestimmen Sie $\dfrac{10^{ {=a}}}{10^{ {=b}}} = $&nbsp;[Q0] in einer Darstellung mit $\mathtt{E}$</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733599" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733600" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733601" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733602" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733603" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704681</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729208</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[1E-8]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[10^(a-b)]]></maxima>
+                  <answer><![CDATA[1E-8]]></answer>
+                  <einheit><![CDATA[=e0]]></einheit>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699257</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[1]]></minimum>
+               <maximum><![CDATA[4]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:-4--1]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[-3;-1;-4;-2;-3;-3;-3;-3;-3;-1;-2;-4;-3;-1;-1;-3;-2;-2;-3;-1;-1;-3;-2;-3;-4;-2;-3;-1;-1;-1;-4;-3;-4;-4;-3;-3;-4;-3;-3;-3]]></items>
+            </dataset>
+            <dataset>
+               <id>158699258</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[b]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[1]]></minimum>
+               <maximum><![CDATA[5]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:1-5]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[5;2;2;5;1;1;5;3;4;4;2;4;4;5;1;4;1;2;2;4;2;3;5;5;1;5;5;2;3;3;3;2;3;4;3;1;5;1;1;1]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672221</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Zehnerpotenz div 4]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima/>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733604" format="">            <inhalt><![CDATA[<p>Verwenden SIe die Schreibweise $\mathtt{1E2}$ um $10^2$ darzustellen.</p>
+
+<p>Bestimmen Sie $\dfrac{10^{ {=a}}}{10^{ {=b}}} = $&nbsp;[Q0] in einer Darstellung mit $\mathtt{E}$</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733605" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733606" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733607" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733608" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733609" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704682</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729209</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[1E-1]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[10^(a-b)]]></maxima>
+                  <answer><![CDATA[1E-1]]></answer>
+                  <einheit><![CDATA[=e0]]></einheit>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699259</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[1]]></minimum>
+               <maximum><![CDATA[4]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:1-4]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[4;4;4;1;2;3;4;2;2;3;4;3;3;1;1;4;1;1;1;1;2;1;2;3;1;1;1;4;4;2;1;2;1;3;4;3;3;2;1;1]]></items>
+            </dataset>
+            <dataset>
+               <id>158699260</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[b]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[5]]></minimum>
+               <maximum><![CDATA[8]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:5-8]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[5;5;5;5;5;7;7;7;8;6;7;7;7;7;5;6;6;7;7;6;5;8;6;7;7;7;7;5;8;6;6;6;6;5;8;7;6;5;7;6]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672222</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Zehnerpotenz Umwandlung 1]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima/>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733610" format="">            <inhalt><![CDATA[<p>Verwenden SIe die Schreibweise $\mathtt{1E2}$ um $10^2$ darzustellen.</p>
+
+<p>Bestimmen Sie ${=10^a;=a9} = $&nbsp;[Q0] in einer Darstellung mit $\mathtt{E}$</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733611" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733612" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733613" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733614" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733615" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704683</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729210</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[1E1]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[10^a]]></maxima>
+                  <answer><![CDATA[1E1]]></answer>
+                  <einheit><![CDATA[=e0]]></einheit>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699261</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[1]]></minimum>
+               <maximum><![CDATA[7]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:1-7]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[1;5;5;1;4;5;6;5;2;5;1;2;3;3;2;7;7;4;5;1;5;4;6;7;1;3;2;6;6;1;6;2;2;2;5;2;3;5;1;4]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672223</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Zehnerpotenz Umwandlung 2]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima/>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733616" format="">            <inhalt><![CDATA[<p>Verwenden SIe die Schreibweise $\mathtt{1E2}$ um $10^2$ darzustellen.</p>
+
+<p>Bestimmen Sie ${=10^a;=a9} = $&nbsp;[Q0] in einer Darstellung mit $\mathtt{E}$</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733617" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733618" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733619" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733620" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733621" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704684</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729211</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[1E0]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[10^a]]></maxima>
+                  <answer><![CDATA[1E0]]></answer>
+                  <einheit><![CDATA[=e0]]></einheit>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699262</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[0]]></minimum>
+               <maximum><![CDATA[0]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I0]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672224</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Zehnerpotenz Umwandlung 3]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima/>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733622" format="">            <inhalt><![CDATA[<p>Verwenden SIe die Schreibweise $\mathtt{1E2}$ um $10^2$ darzustellen.</p>
+
+<p>Bestimmen Sie ${=10^a;=a9} = $&nbsp;[Q0] in einer Darstellung mit $\mathtt{E}$</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733623" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733624" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733625" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733626" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733627" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704685</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729212</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[1E-3]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[10^a]]></maxima>
+                  <answer><![CDATA[1E-3]]></answer>
+                  <einheit><![CDATA[=e0]]></einheit>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699263</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[1]]></minimum>
+               <maximum><![CDATA[8]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I-8--1]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[-3;-4;-3;-5;-8;-6;-4;-8;-8;-1;-7;-3;-5;-2;-6;-3;-6;-2;-6;-7;-5;-3;-2;-2;-8;-1;-3;-5;-5;-6;-6;-4;-3;-4;-6;-3;-6;-7;-6;-6]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672225</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Zehnerpotenz Umwandlung 11]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima/>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733628" format="">            <inhalt><![CDATA[<p>Bestimmen Sie $10^{ {=a}} = $&nbsp;[Q0] als Dezimalzahl ohne $\mathtt{E}$</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733629" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733630" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733631" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733632" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733633" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704686</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729213</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[10]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[10^a]]></maxima>
+                  <answer><![CDATA[10]]></answer>
+                  <einheit><![CDATA[=a9]]></einheit>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699264</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[1]]></minimum>
+               <maximum><![CDATA[7]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:1-7]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[1;5;5;1;4;5;6;5;2;5;1;2;3;3;2;7;7;4;5;1;5;4;6;7;1;3;2;6;6;1;6;2;2;2;5;2;3;5;1;4]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672228</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Zehnerpotenz Umwandlung 12]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima/>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733646" format="">            <inhalt><![CDATA[<p>Bestimmen Sie $10^{ {=a}} = $&nbsp;[Q0] als Dezimalzahl ohne $\mathtt{E}$</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733647" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733648" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733649" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733650" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733651" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704689</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729216</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[1]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[10^a]]></maxima>
+                  <answer><![CDATA[1]]></answer>
+                  <einheit><![CDATA[=a9]]></einheit>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699267</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[0]]></minimum>
+               <maximum><![CDATA[0]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:0]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672229</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Zehnerpotenz Umwandlung 13]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima/>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733652" format="">            <inhalt><![CDATA[<p>Bestimmen Sie $10^{ {=a}} = $&nbsp;[Q0] als Dezimalzahl ohne $\mathtt{E}$</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733653" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733654" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733655" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733656" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733657" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704690</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729217</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[0.00001]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[10^a]]></maxima>
+                  <answer><![CDATA[0.00001]]></answer>
+                  <einheit><![CDATA[=a9]]></einheit>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699268</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[2]]></minimum>
+               <maximum><![CDATA[7]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:-7--2]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[-5;-3;-5;-5;-6;-4;-6;-2;-3;-5;-4;-7;-4;-4;-4;-4;-5;-7;-7;-2;-7;-6;-7;-2;-4;-4;-7;-4;-4;-3;-3;-3;-6;-2;-7;-7;-4;-6;-5;-6]]></items>
+            </dataset>
+         </question>
+      </category>
+      <category>
+         <name><![CDATA[2.1.2 Logarithmus zur Basis 10]]></name>
+         <question type="MoodleClozeCalc">
+            <id>158672233</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Logarithmus 10-01]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima><![CDATA[y : 10^a]]></maxima>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733676" format="">            <inhalt><![CDATA[<p>Bestimmen Sie $\log_{10}(10^{ {=a}}) = $&nbsp;[Q0]&nbsp;</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733677" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733678" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733679" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733680" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733681" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704694</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729221</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[7]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[log10(y)]]></maxima>
+                  <answer><![CDATA[7]]></answer>
+                  <einheit><![CDATA[=a9]]></einheit>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699272</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[1]]></minimum>
+               <maximum><![CDATA[7]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I1-7]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[7;2;4;4;4;4;1;5;6;4;7;5;6;2;5;7;1;1;2;7;7;6;1;1;2;6;2;1;6;5;5;4;5;7;1;3;7;5;3;3]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672234</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Logarithmus 10-02]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima><![CDATA[y : 10^a]]></maxima>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733682" format="">            <inhalt><![CDATA[<p>Bestimmen Sie $\log_{10}(10^{ {=a}}) = $&nbsp;[Q0]&nbsp;</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733683" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733684" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733685" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733686" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733687" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704695</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729222</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[0]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[log10(y)]]></maxima>
+                  <answer><![CDATA[0]]></answer>
+                  <einheit><![CDATA[=a9]]></einheit>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699273</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[0]]></minimum>
+               <maximum><![CDATA[0]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:0]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672235</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Logarithmus 10-03]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima><![CDATA[y : 10^a]]></maxima>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733688" format="">            <inhalt><![CDATA[<p>Bestimmen Sie $\log_{10}(10^{ {=a}}) = $&nbsp;[Q0]&nbsp;</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733689" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733690" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733691" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733692" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733693" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704696</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729223</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[-6]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[log10(y)]]></maxima>
+                  <answer><![CDATA[-6]]></answer>
+                  <einheit><![CDATA[=a9]]></einheit>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699274</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[2]]></minimum>
+               <maximum><![CDATA[7]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:-7--2]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[-6;-4;-7;-7;-2;-4;-5;-2;-4;-2;-6;-6;-5;-4;-5;-5;-5;-7;-4;-2;-5;-7;-6;-2;-2;-4;-2;-4;-4;-2;-7;-6;-7;-5;-7;-4;-3;-4;-5;-7]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672231</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Logarithmus 10-11]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima><![CDATA[y : 10^a]]></maxima>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733664" format="">            <inhalt><![CDATA[<p>Bestimmen Sie $\log_{10}({=y;a9}) = $&nbsp;[Q0]&nbsp;</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733665" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733666" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733667" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733668" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733669" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704692</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729219</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[0]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[log10(y)]]></maxima>
+                  <answer><![CDATA[0]]></answer>
+                  <einheit><![CDATA[=a9]]></einheit>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699270</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[0]]></minimum>
+               <maximum><![CDATA[0]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I0]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672238</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Logarithmus 10-12]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima><![CDATA[y : 10^a]]></maxima>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733706" format="">            <inhalt><![CDATA[<p>Bestimmen Sie $\log_{10}({=y;a9}) = $&nbsp;[Q0]&nbsp;</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733707" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733708" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733709" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733710" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733711" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704699</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729226</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[1]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[log10(y)]]></maxima>
+                  <answer><![CDATA[1]]></answer>
+                  <einheit><![CDATA[=a9]]></einheit>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699279</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[1]]></minimum>
+               <maximum><![CDATA[1]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I1]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672230</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Logarithmus 10-13]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima><![CDATA[y : 10^a]]></maxima>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733658" format="">            <inhalt><![CDATA[<p>Bestimmen Sie $\log_{10}({=y;a9}) = $&nbsp;[Q0]&nbsp;</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733659" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733660" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733661" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733662" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733663" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704691</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729218</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[5]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[log10(y)]]></maxima>
+                  <answer><![CDATA[5]]></answer>
+                  <einheit><![CDATA[=a9]]></einheit>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699269</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[2]]></minimum>
+               <maximum><![CDATA[7]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I2-7]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[5;6;2;6;2;6;3;5;7;7;4;3;3;7;3;2;6;2;5;6;5;6;4;2;7;6;5;2;2;4;4;7;2;4;3;3;3;7;7;2]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672232</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Logarithmus 10-14]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima><![CDATA[y : 10^a]]></maxima>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733670" format="">            <inhalt><![CDATA[<p>Bestimmen Sie $\log_{10}({=y;a9}) = $&nbsp;[Q0]&nbsp;</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733671" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733672" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733673" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733674" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733675" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704693</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729220</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[-5]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[log10(y)]]></maxima>
+                  <answer><![CDATA[-5]]></answer>
+                  <einheit><![CDATA[=a9]]></einheit>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699271</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[2]]></minimum>
+               <maximum><![CDATA[7]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:-7--2]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[-5;-6;-3;-4;-4;-4;-5;-6;-6;-4;-2;-7;-6;-6;-5;-5;-3;-3;-6;-6;-6;-6;-3;-3;-3;-6;-7;-3;-7;-7;-2;-2;-7;-6;-2;-2;-6;-7;-5;-3]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672236</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Logarithmus 10 mult 1]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima/>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733694" format="">            <inhalt><![CDATA[<p>Bestimmen Sie $\log_{10}({=a}) \cdot \log_{10}({=b}) = \log_{10}($&nbsp;[Q0] $)$</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733695" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733696" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733697" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733698" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733699" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704697</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729224</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[15]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[a*b]]></maxima>
+                  <answer><![CDATA[15]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699275</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[1]]></minimum>
+               <maximum><![CDATA[4]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:1-4]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[3;1;1;3;3;3;1;1;2;4;4;1;4;1;2;1;2;1;1;4;4;3;3;2;3;1;2;4;3;4;4;4;4;1;4;4;2;1;4;4]]></items>
+            </dataset>
+            <dataset>
+               <id>158699276</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[b]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[2]]></minimum>
+               <maximum><![CDATA[5]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I2-5]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[5;5;4;3;5;3;2;5;4;5;3;5;3;5;2;2;3;5;4;4;4;5;3;2;3;3;3;2;5;2;2;3;5;5;4;5;4;5;5;2]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672237</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Logarithmus 10 div 1]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima/>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733700" format="">            <inhalt><![CDATA[<p>Bestimmen Sie $\dfrac{\log_{10}({=a})}{\log_{10}({=b})} = \log_{10}($&nbsp;[Q0] $)$</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733701" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733702" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733703" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733704" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733705" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704698</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729225</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[-2]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[a-b]]></maxima>
+                  <answer><![CDATA[-2]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699277</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[1]]></minimum>
+               <maximum><![CDATA[4]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:1-4]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[3;1;1;3;3;3;1;1;2;4;4;1;4;1;2;1;2;1;1;4;4;3;3;2;3;1;2;4;3;4;4;4;4;1;4;4;2;1;4;4]]></items>
+            </dataset>
+            <dataset>
+               <id>158699278</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[b]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[2]]></minimum>
+               <maximum><![CDATA[5]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I2-5]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[5;5;4;3;5;3;2;5;4;5;3;5;3;5;2;2;3;5;4;4;4;5;3;2;3;3;3;2;5;2;2;3;5;5;4;5;4;5;5;2]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672239</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Logarithmus 10 pot 1]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima/>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733712" format="">            <inhalt><![CDATA[<p>Bestimmen Sie $\log_{10}({=a}^{=b})&nbsp; = {=b} \cdot \log_{10}($&nbsp;[Q0] $)$</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733713" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733714" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733715" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733716" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733717" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704700</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729227</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[3]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[a]]></maxima>
+                  <answer><![CDATA[3]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699280</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[1]]></minimum>
+               <maximum><![CDATA[4]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:1-4]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[3;1;1;3;3;3;1;1;2;4;4;1;4;1;2;1;2;1;1;4;4;3;3;2;3;1;2;4;3;4;4;4;4;1;4;4;2;1;4;4]]></items>
+            </dataset>
+            <dataset>
+               <id>158699281</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[b]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[2]]></minimum>
+               <maximum><![CDATA[5]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I2-5]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[5;5;4;3;5;3;2;5;4;5;3;5;3;5;2;2;3;5;4;4;4;5;3;2;3;3;3;2;5;2;2;3;5;5;4;5;4;5;5;2]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672240</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Logarithmus 10 pot 2]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima/>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>PROCESSING</questionCommentIcon>
+            <text art="Questiontext" id="158733718" format="">            <inhalt><![CDATA[<p>Bestimmen Sie $\log_{10}({=a}^{=b})&nbsp; =$ [Q0] $\cdot \log_{10}({=a})$</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733719" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733720" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733721" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733722" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733723" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704701</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729228</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[5]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[b]]></maxima>
+                  <answer><![CDATA[5]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699282</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[1]]></minimum>
+               <maximum><![CDATA[4]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:1-4]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[3;1;1;3;3;3;1;1;2;4;4;1;4;1;2;1;2;1;1;4;4;3;3;2;3;1;2;4;3;4;4;4;4;1;4;4;2;1;4;4]]></items>
+            </dataset>
+            <dataset>
+               <id>158699283</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[b]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[2]]></minimum>
+               <maximum><![CDATA[5]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I2-5]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[5;5;4;3;5;3;2;5;4;5;3;5;3;5;2;2;3;5;4;4;4;5;3;2;3;3;3;2;5;2;2;3;5;5;4;5;4;5;5;2]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672241</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Logarithmus 10 pot 3]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima/>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>PROCESSING</questionCommentIcon>
+            <text art="Questiontext" id="158733724" format="">            <inhalt><![CDATA[<p>Bestimmen Sie $\log_{10}({=a}^{ {=b}})&nbsp; =$ [Q0] $\cdot \log_{10}({=a})$</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733725" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733726" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733727" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733728" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733729" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704702</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729229</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[-2]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[b]]></maxima>
+                  <answer><![CDATA[-2]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699284</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[1]]></minimum>
+               <maximum><![CDATA[4]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:1-4]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[3;1;1;3;3;3;1;1;2;4;4;1;4;1;2;1;2;1;1;4;4;3;3;2;3;1;2;4;3;4;4;4;4;1;4;4;2;1;4;4]]></items>
+            </dataset>
+            <dataset>
+               <id>158699285</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[b]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[1]]></minimum>
+               <maximum><![CDATA[5]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:-5--1]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[-2;-3;-5;-4;-1;-5;-1;-5;-3;-2;-3;-4;-2;-5;-3;-3;-4;-4;-4;-4;-4;-4;-2;-3;-5;-1;-4;-2;-5;-5;-4;-1;-2;-3;-5;-5;-1;-5;-5;-1]]></items>
+            </dataset>
+         </question>
+      </category>
+   </category>
+   <category>
+      <name><![CDATA[2.2 Basis e]]></name>
+      <category>
+         <name><![CDATA[Exponentialfunktion]]></name>
+         <question type="MoodleClozeCalc">
+            <id>158672243</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Exp calc 01]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima><![CDATA[y : %e^(%i * alpha)]]></maxima>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733736" format="">            <inhalt><![CDATA[<p>Bestimmen Sie $\mathrm e^{\mathrm j \cdot {=alpha;5}} = $&nbsp;[Q0]&nbsp;</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733737" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733738" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733739" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733740" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733741" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704704</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729231</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[1arg-169°]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[y]]></maxima>
+                  <answer><![CDATA[1arg-169°]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699288</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[alpha]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[1.047197551]]></minimum>
+               <maximum><![CDATA[5.654866776]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:10-350]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit><![CDATA[°]]></einheit>
+               <items><![CDATA[3.333578871;3.438298626;3.333578871;5.253441049;3.385938749;3.438298626;1.902408885;2.827433388;3.211405824;5.654866776;3.333578871;3.787364477;3.176499239;4.607669225;5.602506899;1.186823891;5.654866776;5.096361416;1.535889742;3.333578871;2.111848395;4.398229715;2.321287905;4.904375198;1.553343034;5.253441049;3.403392041;1.047197551;5.585053606;5.096361416;4.468042885;2.111848395;4.22369679;3.438298626;2.460914245;3.176499239;1.466076572;3.560471674;3.787364477;1.902408885]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672245</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Exp calc 02]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima><![CDATA[y : %e^(%i * alpha)]]></maxima>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733748" format="">            <inhalt><![CDATA[<p>Bestimmen Sie $\mathrm e^{\mathrm j \cdot {=alpha;=&deg;/&deg;,5}} = $&nbsp;[Q0]&nbsp;</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733749" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733750" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733751" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733752" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733753" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704706</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729233</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[1arg-178°]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[y]]></maxima>
+                  <answer><![CDATA[1arg-178°]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699289</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[alpha]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[0.2268928028]]></minimum>
+               <maximum><![CDATA[5.724679947]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:10-350]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit><![CDATA[°]]></einheit>
+               <items><![CDATA[3.176499239;5.585053606;0.6632251158;0.2268928028;5.585053606;3.438298626;2.670353756;5.707226654;0.2967059728;0.8028514559;1.658062789;4.974188368;2.827433388;1.134464014;2.164208272;2.600540585;2.408554368;0.8028514559;5.427973974;1.483529864;0.7504915784;4.694935688;4.747295565;0.6632251158;0.9424777961;5.323254219;4.834562028;4.834562028;2.00712864;1.134464014;4.08407045;5.724679947;4.08407045;4.694935688;0.9424777961;4.328416545;5.235987756;0.8203047484;2.583087293;1.658062789]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672247</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Exp calc 03]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima><![CDATA[y : %e^(%i * alpha)]]></maxima>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733760" format="">            <inhalt><![CDATA[<p>Bestimmen Sie $\mathrm e^{\mathrm j \cdot {=alpha;4}} = $&nbsp;[Q0] in&nbsp;<strong>Polarform</strong></p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733761" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733762" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733763" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733764" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733765" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704710</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729237</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[1arg61.00000002°]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[y]]></maxima>
+                  <answer><![CDATA[1arg61°]]></answer>
+                  <einheit><![CDATA[=pol]]></einheit>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699292</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[alpha]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[0.3665191429]]></minimum>
+               <maximum><![CDATA[5.986479334]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:10-350]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit><![CDATA[°]]></einheit>
+               <items><![CDATA[1.064650844;2.024581932;0.9773843811;5.986479334;0.3665191429;5.096361416;4.171336912;4.4331363;0.6457718232;3.577924967;5.829399702;0.9773843811;2.827433388;0.6283185307;5.777039824;1.884955592;3.351032164;5.532693729;1.727875959;1.727875959;3.94444411;3.333578871;4.171336912;2.024581932;5.340707511;5.096361416;1.064650844;5.777039824;3.333578871;1.884955592;0.8552113335;1.850049007;4.677482395;2.862339973;0.8203047484;1.274090354;3.717551307;3.333578871;0.907571211;0.7155849933]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672248</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Exp calc 04]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima><![CDATA[y : %e^(%i * alpha)]]></maxima>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733766" format="">            <inhalt><![CDATA[<p>Bestimmen Sie $\mathrm e^{\mathrm j \cdot {=alpha;5}} = $&nbsp;[Q0] in&nbsp;<strong>karthesischer From</strong></p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733767" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733768" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733769" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733770" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733771" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704711</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729238</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[1arg-96°]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[y]]></maxima>
+                  <answer><![CDATA[(-0.10453-0.99452*%i)]]></answer>
+                  <einheit><![CDATA[=kart]]></einheit>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699293</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[alpha]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[0.5061454831]]></minimum>
+               <maximum><![CDATA[6.091199089]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:10-350]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit><![CDATA[°]]></einheit>
+               <items><![CDATA[4.607669225;2.111848395;4.64257581;2.00712864;2.530727415;0.9948376736;5.864306287;4.64257581;5.567600314;2.199114858;1.221730476;4.64257581;0.6981317008;4.991641661;4.607669225;5.288347634;2.705260341;3.839724354;4.64257581;5.096361416;3.281218994;3.874630939;0.9424777961;3.211405824;5.986479334;3.577924967;5.305800926;5.689773362;3.211405824;0.5061454831;3.647738137;4.660029103;5.235987756;5.375614096;4.64257581;4.136430327;3.804817769;0.8552113335;6.091199089;0.9424777961]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672249</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Exp calc 05]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima><![CDATA[y : a * %e^(%i * alpha)]]></maxima>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733772" format="">            <inhalt><![CDATA[<p>Bestimmen Sie ${=a} \cdot \mathrm e^{\mathrm j \cdot {=alpha;5}} = $&nbsp;[Q0] in&nbsp;<strong>Polarform</strong></p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733773" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733774" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733775" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733776" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733777" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704712</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729239</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[7.3arg-168°]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[y]]></maxima>
+                  <answer><![CDATA[7.3arg-168°]]></answer>
+                  <einheit><![CDATA[=pol]]></einheit>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699294</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[alpha]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[0.2443460953]]></minimum>
+               <maximum><![CDATA[6.108652382]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:10-350]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit><![CDATA[°]]></einheit>
+               <items><![CDATA[3.351032164;5.044001538;3.874630939;5.148721293;5.462880559;5.969026042;3.979350695;5.515240436;3.94444411;4.660029103;1.500983157;2.07694181;4.729842273;4.485496178;3.94444411;5.410520681;3.246312409;5.410520681;5.340707511;4.258603375;2.792526803;0.3839724354;4.921828491;3.874630939;2.635447171;5.375614096;0.2443460953;4.310963252;2.07694181;4.171336912;4.520402763;0.5585053606;4.869468613;5.270894341;4.4331363;6.108652382;5.044001538;4.485496178;4.258603375;4.398229715]]></items>
+            </dataset>
+            <dataset>
+               <id>158699295</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[2]]></minimum>
+               <maximum><![CDATA[8.6]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[F2:2-9]]></zahlenbereich>
+               <ziffern>2</ziffern>
+               <einheit/>
+               <items><![CDATA[7.3;7.2;7;3.4;6.8;2.5;5.2;8.1;3.1;8.6;6.5;8.3;5.7;7.3;2.8;8.1;6.7;2;4.8;3.7;5.5;8.4;4.7;4.1;5.7;5.9;6.7;3.4;7.7;4.8;8.1;4;3.4;4.1;3.7;4.6;5.7;6;8.5;3.4]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672250</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Exp calc 06]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima><![CDATA[y : a * %e^(%i * alpha)]]></maxima>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733778" format="">            <inhalt><![CDATA[<p>Bestimmen Sie ${=a} \cdot \mathrm e^{\mathrm j \cdot {=alpha;5}} = $&nbsp;[Q0] in&nbsp;<strong>karthesischer Form</strong></p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733779" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733780" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733781" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733782" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733783" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704713</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729240</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[6.1arg115°]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[y]]></maxima>
+                  <answer><![CDATA[(-2.578+5.5285*%i)]]></answer>
+                  <einheit><![CDATA[=kart]]></einheit>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699296</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[alpha]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[0.1745329252]]></minimum>
+               <maximum><![CDATA[5.916666164]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:10-350]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit><![CDATA[°]]></einheit>
+               <items><![CDATA[2.00712864;1.762782545;1.326450232;0.1745329252;4.136430327;5.113814708;4.136430327;3.368485456;3.892084232;4.64257581;2.268928028;2.164208272;3.316125579;4.241150082;2.00712864;0.2792526803;4.171336912;0.872664626;1.448623279;0.3839724354;5.044001538;3.176499239;2.792526803;0.5759586532;2.199114858;1.710422667;3.246312409;0.907571211;5.916666164;1.815142422;0.872664626;3.892084232;2.28638132;1.448623279;2.199114858;1.326450232;0.1745329252;3.612831552;4.660029103;5.742133239]]></items>
+            </dataset>
+            <dataset>
+               <id>158699297</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[2.3]]></minimum>
+               <maximum><![CDATA[8.7]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[F2:2-9]]></zahlenbereich>
+               <ziffern>2</ziffern>
+               <einheit/>
+               <items><![CDATA[6.1;3;4.1;4.5;8.7;3;7.2;8.5;5.1;3.6;7.3;2.3;6.4;7.3;3.6;3;4;2.6;4.7;4.1;8.2;2.4;8.5;4.1;6.3;5.4;3.9;3.3;7.2;7.1;4.8;3.8;6.2;5.8;6.2;4.6;5.5;4.4;6.1;2.9]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672244</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Exp 01]]></name>
+            <punkte>2.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima/>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733742" format="">            <inhalt><![CDATA[<p>Bestimmen Sie $\mathrm e^{\mathrm j \cdot {=alpha}} = \cos($&nbsp;[Q0] $) + \mathrm j \cdot \sin ($ [Q1] $)$</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733743" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733744" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733745" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733746" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733747" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704705</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729232</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[17°]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[alpha]]></maxima>
+                  <answer><![CDATA[17°]]></answer>
+                  <einheit><![CDATA[°]]></einheit>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158704707</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q1]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729234</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[17°]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[alpha]]></maxima>
+                  <answer><![CDATA[17°]]></answer>
+                  <einheit><![CDATA[°]]></einheit>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699290</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[alpha]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[0.2967059728]]></minimum>
+               <maximum><![CDATA[6.021385919]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I10-350]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit><![CDATA[°]]></einheit>
+               <items><![CDATA[0.2967059728;5.096361416;0.6283185307;5.340707511;2.687807048;0.2967059728;2.443460953;5.759586532;2.565634;4.031710572;3.385938749;2.49582083;2.234021443;6.021385919;3.630284844;0.8203047484;0.6981317008;3.595378259;5.061454831;0.4537856055;1.919862177;4.625122518;0.5759586532;0.2967059728;0.9599310886;4.694935688;2.408554368;0.5235987756;3.036872898;1.727875959;0.5934119457;1.919862177;0.5759586532;0.5759586532;1.727875959;5.811946409;3.333578871;4.64257581;1.605702912;5.061454831]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672251</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Exp 03]]></name>
+            <punkte>2.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima/>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733784" format="">            <inhalt><![CDATA[<p>Bestimmen Sie ${=a} \cdot \mathrm e^{\mathrm j \cdot {=alpha}} = $ [Q0] $\cdot\cos( {=alpha}) + \mathrm j \cdot {=a} \cdot \sin ($ [Q1] $)$</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733785" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733786" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733787" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733788" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733789" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704714</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729241</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[6.8]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[a]]></maxima>
+                  <answer><![CDATA[6.8]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158704715</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q1]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729242</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[314°]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[alpha]]></maxima>
+                  <answer><![CDATA[314°]]></answer>
+                  <einheit><![CDATA[°]]></einheit>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699298</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[alpha]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[0.2792526803]]></minimum>
+               <maximum><![CDATA[6.108652382]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I10-350]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit><![CDATA[°]]></einheit>
+               <items><![CDATA[5.480333851;1.308996939;1.710422667;4.328416545;2.059488517;4.886921906;2.129301687;5.724679947;4.485496178;1.012290966;5.340707511;2.268928028;1.308996939;0.3141592654;6.108652382;2.251474735;1.308996939;4.328416545;1.343903524;0.2792526803;4.991641661;3.036872898;5.445427266;3.996803987;0.3839724354;3.298672286;3.490658504;0.2792526803;0.7330382858;0.9599310886;5.497787144;5.515240436;2.460914245;3.595378259;2.268928028;5.777039824;3.996803987;3.001966313;5.096361416;2.251474735]]></items>
+            </dataset>
+            <dataset>
+               <id>158699299</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[2.2]]></minimum>
+               <maximum><![CDATA[8.9]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[F2:2-9]]></zahlenbereich>
+               <ziffern>2</ziffern>
+               <einheit/>
+               <items><![CDATA[6.8;6.9;8.9;5.1;8.9;2.5;4.9;4.2;7.4;4.1;4.6;4;8.6;4.2;3.1;3.3;6.1;5.6;2.5;2.2;5.7;8.2;3.6;8;2.6;8.6;2.2;8.9;7;7.8;4;5;5;7.4;7.4;4.9;7.7;7.5;3;3.5]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672252</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Exp 04]]></name>
+            <punkte>2.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima/>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733790" format="">            <inhalt><![CDATA[<p>Bestimmen Sie ${=a} \cdot \mathrm e^{\mathrm j \cdot {=alpha}} = {=a} \cdot\cos($ [Q0] $) + \mathrm j \cdot $ [Q1] $\cdot \sin ({=alpha})$</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733791" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733792" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733793" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733794" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733795" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704718</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729245</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[44°]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[alpha]]></maxima>
+                  <answer><![CDATA[44°]]></answer>
+                  <einheit><![CDATA[°]]></einheit>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158704719</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q1]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729246</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[4.6]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[a]]></maxima>
+                  <answer><![CDATA[4.6]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699300</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[alpha]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[0.401425728]]></minimum>
+               <maximum><![CDATA[6.003932627]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I10-350]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit><![CDATA[°]]></einheit>
+               <items><![CDATA[0.7679448709;5.410520681;5.393067389;4.101523742;2.251474735;5.201081171;0.8203047484;1.850049007;3.892084232;0.7679448709;4.066617157;3.211405824;1.256637061;0.8203047484;3.892084232;5.201081171;6.003932627;1.658062789;4.71238898;3.385938749;3.054326191;1.850049007;5.811946409;3.996803987;1.291543646;3.892084232;3.385938749;5.864306287;3.385938749;3.159045946;0.401425728;3.019419606;5.532693729;5.672320069;1.291543646;2.373647783;5.061454831;3.874630939;4.101523742;3.996803987]]></items>
+            </dataset>
+            <dataset>
+               <id>158699301</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[2.4]]></minimum>
+               <maximum><![CDATA[9]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[F2:2-9]]></zahlenbereich>
+               <ziffern>2</ziffern>
+               <einheit/>
+               <items><![CDATA[4.6;9;7.9;5;8.7;8.8;3;3;7.8;6.8;5.7;8.5;6;7;7.8;7.8;6.6;7.9;2.4;4.5;5.3;5.9;4.5;8.6;4.6;8.6;8.5;6.3;5.1;7.5;7.9;6;7.5;8.1;4.5;5.9;6.3;4.9;6.9;4.6]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672246</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Exp 02]]></name>
+            <punkte>2.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima/>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158733754" format="">            <inhalt><![CDATA[<p>Bestimmen Sie $\mathrm e^{\mathrm j \cdot {=alpha;=%/%,5}} = \cos($&nbsp;[Q0] $) + \mathrm j \cdot \sin ($ [Q1] $)$</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733755" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733756" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733757" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733758" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733759" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704708</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729235</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[130°]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[alpha]]></maxima>
+                  <answer><![CDATA[130°]]></answer>
+                  <einheit><![CDATA[°]]></einheit>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158704709</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q1]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729236</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[130°]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[alpha]]></maxima>
+                  <answer><![CDATA[130°]]></answer>
+                  <einheit><![CDATA[°]]></einheit>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699291</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[alpha]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[0.2443460953]]></minimum>
+               <maximum><![CDATA[6.108652382]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I10-350]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit><![CDATA[°]]></einheit>
+               <items><![CDATA[2.268928028;1.972222055;1.291543646;5.846852994;5.759586532;4.729842273;1.134464014;2.967059728;5.777039824;1.710422667;3.490658504;0.3839724354;3.94444411;0.3839724354;6.108652382;0.2443460953;1.291543646;3.490658504;1.972222055;0.6283185307;0.3490658504;5.323254219;4.991641661;1.500983157;5.846852994;4.991641661;1.291543646;4.031710572;2.565634;2.251474735;2.129301687;5.777039824;5.270894341;3.839724354;4.031710572;3.508111797;3.281218994;2.181661565;0.7330382858;4.520402763]]></items>
+            </dataset>
+         </question>
+      </category>
+      <category>
+         <name><![CDATA[Natürlicher Logarithmus]]></name>
+         <question type="MoodleClozeCalc">
+            <id>158672253</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Ln equ 1]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima><![CDATA[y : exp(x)]]></maxima>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>PROCESSING</questionCommentIcon>
+            <text art="Questiontext" id="158733796" format="">            <inhalt><![CDATA[<p>Bestimmen Sie aus der Gleichung $\exp(x) = {=y;5}$ die Gr&ouml;&szlig;e $x = $&nbsp;[Q0]&nbsp;</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733797" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733798" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733799" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733800" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733801" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704721</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729248</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[1.3]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[x]]></maxima>
+                  <answer><![CDATA[1.3]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699304</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[x]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[0.2]]></minimum>
+               <maximum><![CDATA[1.5]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[F2:0.2-1.5]]></zahlenbereich>
+               <ziffern>2</ziffern>
+               <einheit/>
+               <items><![CDATA[1.3;0.3;0.84;0.82;1.2;0.69;1.1;0.47;0.64;0.42;0.26;0.3;0.2;0.76;0.8;0.61;1.1;0.63;1.4;1.5;0.5;0.5;0.66;1.1;0.62;0.87;1.3;1.1;1.5;0.7;0.62;0.84;0.42;0.8;1.4;0.87;1.3;0.47;0.45;1.5]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672254</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Ln equ 2]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima><![CDATA[y : exp(x)]]></maxima>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>PROCESSING</questionCommentIcon>
+            <text art="Questiontext" id="158733802" format="">            <inhalt><![CDATA[<p>Bestimmen Sie aus der Gleichung $\exp(x) = {=y;5}$ die Gr&ouml;&szlig;e $x = $&nbsp;[Q0]&nbsp;</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733803" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733804" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733805" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733806" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733807" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704722</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729249</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[-0.78]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[x]]></maxima>
+                  <answer><![CDATA[-0.78]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699305</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[x]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[0.28]]></minimum>
+               <maximum><![CDATA[1.5]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[F2:-1.5--0.2]]></zahlenbereich>
+               <ziffern>2</ziffern>
+               <einheit/>
+               <items><![CDATA[-0.78;-0.31;-0.41;-0.78;-0.67;-1;-0.69;-0.86;-0.4;-1.3;-0.56;-0.4;-0.47;-0.56;-0.45;-1;-1.5;-0.67;-0.67;-0.87;-1.1;-0.82;-0.28;-0.52;-0.7;-0.87;-1.1;-1.4;-1.2;-0.3;-0.98;-1.1;-0.7;-0.77;-1.1;-0.67;-0.88;-0.98;-0.31;-0.52]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672255</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Ln equ 3]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima><![CDATA[y : exp(-x)]]></maxima>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>PROCESSING</questionCommentIcon>
+            <text art="Questiontext" id="158733808" format="">            <inhalt><![CDATA[<p>Bestimmen Sie aus der Gleichung $\exp(-x) = {=y;5}$ die Gr&ouml;&szlig;e $x = $&nbsp;[Q0]&nbsp;</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733809" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733810" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733811" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733812" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733813" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704723</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729250</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[0.46]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[x]]></maxima>
+                  <answer><![CDATA[0.46]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699306</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[x]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[0.21]]></minimum>
+               <maximum><![CDATA[2]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[F2:0.2-2]]></zahlenbereich>
+               <ziffern>2</ziffern>
+               <einheit/>
+               <items><![CDATA[0.46;0.51;0.73;0.29;0.75;0.46;0.68;1;1.3;0.32;1.1;0.29;0.79;0.75;1.1;1.3;2;1.4;1.9;0.32;1.9;1.6;1.5;1.1;1.8;0.87;1.7;1.5;0.59;1;0.21;0.55;1.3;0.55;1.1;1;0.73;0.51;1;1.7]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672256</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Ln equ 4]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima><![CDATA[y : exp(-a*x)]]></maxima>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>PROCESSING</questionCommentIcon>
+            <text art="Questiontext" id="158733814" format="">            <inhalt><![CDATA[<p>Bestimmen Sie aus der Gleichung $\exp(-{=a} \cdot x) = {=y;5}$ die Gr&ouml;&szlig;e $x = $&nbsp;[Q0]&nbsp;</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733815" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733816" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733817" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733818" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733819" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704724</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729251</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[1.2]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[x]]></maxima>
+                  <answer><![CDATA[1.2]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699307</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[x]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[0.29]]></minimum>
+               <maximum><![CDATA[1.5]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[F2:0.2-1.5]]></zahlenbereich>
+               <ziffern>2</ziffern>
+               <einheit/>
+               <items><![CDATA[1.2;0.35;1.2;0.96;0.88;0.85;0.96;0.61;0.7;1.3;1.3;1.4;1.5;0.53;0.83;0.29;0.52;0.88;1.2;1.2;1.1;0.54;1.1;0.54;1.2;1.3;0.99;1.5;0.45;0.75;0.48;1.2;1.2;0.82;1.4;1.5;0.52;0.59;0.56;0.72]]></items>
+            </dataset>
+            <dataset>
+               <id>158699309</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[1.2]]></minimum>
+               <maximum><![CDATA[2.9]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[F2:1.2-3]]></zahlenbereich>
+               <ziffern>2</ziffern>
+               <einheit/>
+               <items><![CDATA[2.1;2.2;1.3;2.2;1.6;2.5;2.6;2.2;2.2;2;2.4;2.5;1.2;1.8;1.9;1.8;1.8;2.7;2.5;1.3;2.3;2.3;2.6;2.7;2.9;2.5;2.7;1.7;1.6;2.8;2.1;1.9;2.8;2.2;2.5;1.5;2.8;2.6;2.9;2.5]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158672257</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>0</single>
+            <name><![CDATA[Ln equ 5]]></name>
+            <punkte>1.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima><![CDATA[y : exp(-x/a)]]></maxima>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins/>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>true</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>PROCESSING</questionCommentIcon>
+            <text art="Questiontext" id="158733820" format="">            <inhalt><![CDATA[<p>Bestimmen Sie aus der Gleichung $\exp(- \frac{ x}{ {=a}}) = {=y;5}$ die Gr&ouml;&szlig;e $x = $&nbsp;[Q0]&nbsp;</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158733821" format="">            <inhalt/>
+</text>
+            <text art="correct feedback" id="158733822" format="">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158733823" format="">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158733824" format="">            <inhalt/>
+</text>
+            <text art="grader info" id="158733825" format="">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158704725</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158729252</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[1.1]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[x]]></maxima>
+                  <answer><![CDATA[1.1]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158699310</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[x]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[0.21]]></minimum>
+               <maximum><![CDATA[1.5]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[F2:0.2-1.5]]></zahlenbereich>
+               <ziffern>2</ziffern>
+               <einheit/>
+               <items><![CDATA[1.1;1.1;1.5;1.4;0.61;0.37;1.4;0.58;1.2;0.36;1;0.23;1.2;0.61;0.5;1.1;0.73;0.67;1.1;1.4;1;1.1;1.2;0.63;1.3;1.4;0.79;1;1.1;0.57;0.21;1.1;1.3;0.94;1;1.4;0.6;1.4;0.62;1.5]]></items>
+            </dataset>
+            <dataset>
+               <id>158699311</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[a]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[0.35]]></minimum>
+               <maximum><![CDATA[1.4]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[F2:0.3-0.9,1.1-1.5]]></zahlenbereich>
+               <ziffern>2</ziffern>
+               <einheit/>
+               <items><![CDATA[0.57;0.75;0.65;1.2;0.61;0.51;0.75;0.73;0.45;1.2;0.35;1.3;0.39;0.35;0.64;1.3;0.65;1.4;1.1;0.35;1.2;0.51;0.58;0.64;0.45;0.35;0.43;0.51;0.53;0.7;0.72;1.4;0.58;0.71;1.4;0.7;0.35;0.66;1.1;1.3]]></items>
+            </dataset>
+         </question>
+      </category>
+   </category>
+</category>
+</letto>

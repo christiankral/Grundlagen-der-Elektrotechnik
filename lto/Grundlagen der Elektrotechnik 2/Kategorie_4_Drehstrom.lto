@@ -16162,7 +16162,7 @@ cSGes : cSZ_U + cSZ_V + cSZ_W
             <jsonMap><![CDATA[{}]]></jsonMap>
             <changeLogMap><![CDATA[{}]]></changeLogMap>
             <questionCommentMsg/>
-            <questionCommentIcon>PROCESSING</questionCommentIcon>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
             <text art="Questiontext" id="158749360" format="html">            <inhalt><![CDATA[<h2>Grundlegende Aufgabe</h2>
 
 <p>Von einem Drehstromsystem mit symmetrischen Phasenspannungen kennt man $\underline U_{30}={=U30,poldeg,4}$.</p>
@@ -16413,7 +16413,7 @@ cSGes : cSZ_U + cSZ_V + cSZ_W
                   <format><![CDATA[html]]></format>
                   <text><![CDATA[(3.662053439arg-104.0362435°)fA]]></text>
                   <feedback/>
-                  <tolerance><![CDATA[1%]]></tolerance>
+                  <tolerance><![CDATA[a0.1]]></tolerance>
                   <correctAnswerFormat>2</correctAnswerFormat>
                   <correctAnswerLength>5</correctAnswerLength>
                   <maxima><![CDATA[cI0]]></maxima>
@@ -16732,7 +16732,7 @@ cSGes : cSZ_U + cSZ_V + cSZ_W
             <jsonMap><![CDATA[{}]]></jsonMap>
             <changeLogMap><![CDATA[{}]]></changeLogMap>
             <questionCommentMsg/>
-            <questionCommentIcon>PROCESSING</questionCommentIcon>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
             <text art="Questiontext" id="158749366" format="html">            <inhalt><![CDATA[<h2>Grundlegende Aufgabe</h2>
 
 <p>Von einem Drehstromsystem mit symmetrischen Phasenspannungen kennt man $\underline U_{20}={=U20,poldeg,4}$.</p>
@@ -16983,7 +16983,7 @@ cSGes : cSZ_U + cSZ_V + cSZ_W
                   <format><![CDATA[html]]></format>
                   <text><![CDATA[0A]]></text>
                   <feedback/>
-                  <tolerance><![CDATA[1.0%]]></tolerance>
+                  <tolerance><![CDATA[a0.1]]></tolerance>
                   <correctAnswerFormat>2</correctAnswerFormat>
                   <correctAnswerLength>5</correctAnswerLength>
                   <maxima><![CDATA[cI0]]></maxima>
@@ -17243,6 +17243,757 @@ cSGes : cSZ_U + cSZ_V + cSZ_W
                <items><![CDATA[29arg-70°;21arg-30°;14arg50°;12arg10°;16arg-20°;19arg-60°;22arg-60°;14arg0°;24arg80°;21arg60°;12arg40°;19arg-40°;29arg50°;12arg-40°;25arg-30°;11arg-50°;29arg-70°;16arg70°;29arg40°;29arg40°;27arg-30°;20arg-30°;26arg50°;24arg-60°;27arg-30°;12arg10°;18arg50°;10arg40°;29arg-70°;8.1arg0°;18arg-40°;18arg0°;22arg-60°;28arg-50°;27arg-10°;5.8arg-70°;26arg-30°;13arg10°;5.9arg60°;22arg40°]]></items>
             </dataset>
          </question>
+         <question type="MoodleClozeCalc">
+            <id>158674865</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>2</single>
+            <name><![CDATA[Stern asym Z komplex Leiterbruch]]></name>
+            <punkte>23.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima><![CDATA[a:exp(%i*2*%pi/3)
+UY:UD/sqrt(3)
+phiU3:2*%pi*k/24
+U30:UY*exp(%i*phiU3)
+U10:U30/a
+U20:U10/a
+
+// Rechnung mit Plugin
+UQ1 : U10
+UQ2 : U20
+UQ3 : U30
+
+// Symmetrische Impedanzen
+Z_V : Z_U
+Z_W : Z_U
+
+// Symmetrische Spannungsversorgung
+[PIM Plugin1/]
+
+cIZ_U1 : cIZ_U
+cIZ_V1 : cIZ_V
+cIZ_W1 : cIZ_W
+cSZ_U1 : cSZ_U
+cSZ_V1 : cSZ_V
+cSZ_W1 : cSZ_W
+cSGes1 : cSZ_U1 + cSZ_V1 + cSZ_W1
+
+// Leiterbruch
+[PIM Plugin2/]
+
+cIZ_U2 : cIZ_U
+cIZ_V2 : cIZ_V
+cIZ_W2 : cIZ_W
+cUZ_U2 : cUZ_U
+cUZ_V2 : cUZ_V
+cUZ_W2 : cUZ_W
+cSZ_U2 : cSZ_U
+cSZ_V2 : cSZ_V
+cSZ_W2 : cSZ_W
+cSGes2 : cSZ_U2 + cSZ_V2 + cSZ_W2
+]]></maxima>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins><![CDATA[[PI Plugin1 Dsr "DSU(),DS(Ru,Rv,Rw);Ru:Z_U,Rv:Z_V,Rw:Z_W;IZ_U>_, IZ_V>_, IZ_W>_;IQ1>1_,IQ2>2,IQ3>3_;UZ_U>_,UZ_V>_,UZ_W>_;UQ1>10_,UQ2>20_,UQ3>30_;"],[PI Plugin2 Dsr "DSU(),DZ(LL1,KS2,KS3),DS(Ru,Rv,Rw);Ru:Z_U,Rv:Z_V,Rw:Z_W;IZ_U>_, IZ_V>_, IZ_W>_;IQ1>1_,IQ2>2,IQ3>3_;UZ_U>_,UZ_V>_,UZ_W>_;UQ1>10_,UQ2>20_,UQ3>30_;LL1:B,UB>_;"]]]></plugins>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>false</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
+            <text art="Questiontext" id="158749456" format="html">            <inhalt><![CDATA[<h2>Grundlegende Aufgabe</h2>
+
+<p>Von einem Drehstromsystem mit symmetrischen Phasenspannungen kennt man $\underline U_{20}={=U20,poldeg,4}$.</p>
+
+<p>(a) Bestimmen Sie die Phasenspannung $\underline U_{30}$ [Q0]</p>
+
+<p>(b) Bestimmen Sie die Phasenspannung $\underline U_{10}$ [Q1]</p>
+
+<p>An den symmetrischen Spannungen $\underline U_{10}$, $\underline U_{20}$ und $\underline U_{30}$ des Drehstromsystems werden drei symmetrische Lasten mit $\underline Z_U = \underline Z_V = \underline Z_W = {=Z_W;poldeg,4}$ betrieben.</p>
+
+<p>[PIG Plugin1 &quot;S w70&quot;/]</p>
+
+<p>(c) Bestimmen Sie die Spannung $\underline U_{ ZU} = $&nbsp;[Q2]&nbsp;</p>
+
+<p>(d)&nbsp;Bestimmen Sie die Spannung $\underline U_{ ZV} = $&nbsp;[Q3]&nbsp;</p>
+
+<p>(e) Bestimmen Sie die Spannung $\underline U_{ ZW} = $&nbsp;[Q4]&nbsp;</p>
+
+<p>(f) Bestimmen Sie den Strom $\underline I_{ ZU} = $ [Q5]</p>
+
+<p>(g) Bestimmen Sie den Strom $\underline I_{ ZV} = $ [Q6]</p>
+
+<p>(h) Bestimmen Sie den Strom $\underline I_{ ZW} = $ [Q7]</p>
+
+<p>(i) Bestimmen Sie f&uuml;r den Strang U die komplexe Scheinleistung $\underline S_U = $&nbsp; [Q8]&nbsp;</p>
+
+<p>(j) Bestimmen Sie f&uuml;r den Strang V die komplexe Scheinleistung $\underline S_V = $&nbsp;[Q9]&nbsp;</p>
+
+<p>(k) Bestimmen Sie f&uuml;r den Strang W die komplexe Scheinleistung $\underline S_W = $&nbsp;[Q10]&nbsp;</p>
+
+<p>(l) Bestimmen Sie die gesamte komplexe Scheinleistung $\underline S_\mathrm{Ges} = $&nbsp;[Q11]&nbsp;</p>
+
+<hr />
+<p>In den Zuleitungen zu den Lastimpedanzen kommt es nun zu einem Leiterbruch:</p>
+
+<p>[PIG Plugin2 &quot;S w90&quot;/]</p>
+
+<p>(m) Bestimmen Sie den Strom $\underline I_{ ZU} = $ [Q12]</p>
+
+<p>(n) Bestimmen Sie den Strom $\underline I_{ ZV} = $ [Q13]</p>
+
+<p>(o) Bestimmen Sie den Strom $\underline I_{ ZW} = $ [Q14]</p>
+
+<p>(p) Bestimmen Sie die&nbsp;Spannung $\underline U_{ ZU} = $&nbsp;[Q15]&nbsp;</p>
+
+<p>(q)&nbsp;Bestimmen Sie die Spannung $\underline U_{ ZV} = $&nbsp;[Q16]&nbsp;</p>
+
+<p>(r) Bestimmen Sie die Spannung $\underline U_{ ZW} = $&nbsp;[Q17]&nbsp;</p>
+
+<p>(s) Bestimmen Sie die Spannung $\underline U_B = $&nbsp;[Q18]&nbsp;</p>
+
+<p>(t)&nbsp;Bestimmen Sie f&uuml;r den Strang U die komplexe Scheinleistung $\underline S_U = $&nbsp;[Q19]&nbsp;</p>
+
+<p>(j) Bestimmen Sie f&uuml;r den Strang V die komplexe Scheinleistung $\underline S_V = $&nbsp;[Q20]&nbsp;</p>
+
+<p>(k) Bestimmen Sie f&uuml;r den Strang W die komplexe Scheinleistung $\underline S_W = $&nbsp;[Q21]&nbsp;</p>
+
+<p>(l) Bestimmen Sie die gesamte komplexe Scheinleistung $\underline S_\mathrm{Ges} = $&nbsp;[Q22]&nbsp;</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158749457" format="html">            <inhalt><![CDATA[<p>[PIG Plugin2 &quot;S w90&quot;/]</p>
+
+<p>(m) Der Strim durch die Imepdanz&nbsp;$\underline Z_{ ZU}$ ist infolge des Leiterbruchs gleich null.</p>
+
+<p>(n) Es sind nun die Impedanzen $\underline Z_V$ und $\underline Z_W$ in Serie geschaltet. An diesen beiden Impedanzen liegt insgesamt die Spannung $\underline U_{20} - \underline U_{30}$.</p>
+
+<p>(o) Es gilt $\underline I_{ ZV} + \underline I_{ ZW} = 0$.&nbsp;</p>
+]]></inhalt>
+</text>
+            <text art="correct feedback" id="158749458" format="html">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158749459" format="html">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158749460" format="html">            <inhalt/>
+</text>
+            <text art="grader info" id="158749461" format="html">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158715760</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745634</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[259.8076211arg15°V]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1.0%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[U30]]></maxima>
+                  <answer><![CDATA[(259.81arg15°)V]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715761</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q1]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745635</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[(259.8076211arg-105°)V]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1.0%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[U10]]></maxima>
+                  <answer><![CDATA[(259.81arg-105°)V]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715762</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q2]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745636</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[0'kg2m4A-3s-6']]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cUZ_U]]></maxima>
+                  <answer><![CDATA[0'kg2m4A-3s-6']]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715763</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q3]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745637</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[225arg165°V]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cUZ_V]]></maxima>
+                  <answer><![CDATA[(225arg165°)V]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715764</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q4]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745638</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[(225arg-15°)V]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cUZ_W]]></maxima>
+                  <answer><![CDATA[(225arg-15°)V]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715765</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q5]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745639</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[(9.992600813arg-95°)A]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1.0%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cIZ_U1]]></maxima>
+                  <answer><![CDATA[(9.9926arg-95°)A]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715766</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q6]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745640</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[9.992600813arg145°A]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1.0%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cIZ_V1]]></maxima>
+                  <answer><![CDATA[(9.9926arg145°)A]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715767</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q7]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745641</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[9.992600813arg25°A]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1.0%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cIZ_W1]]></maxima>
+                  <answer><![CDATA[(9.9926arg25°)A]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715769</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q8]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745643</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[(2.596153846arg-10°)kW]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cSZ_U1]]></maxima>
+                  <answer><![CDATA[(2.5962arg-10°)kVA]]></answer>
+                  <einheit><![CDATA[?VA]]></einheit>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715770</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q9]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745644</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[(2.596153846arg-10°)kW]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cSZ_V1]]></maxima>
+                  <answer><![CDATA[(2.5962arg-10°)kVA]]></answer>
+                  <einheit><![CDATA[?VA]]></einheit>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715771</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q10]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745645</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[(2.596153846arg-10°)kW]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cSZ_W1]]></maxima>
+                  <answer><![CDATA[(2.5962arg-10°)kVA]]></answer>
+                  <einheit><![CDATA[?VA]]></einheit>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715772</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q11]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745646</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[(7.788461538arg-10°)kW]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cSGes1]]></maxima>
+                  <answer><![CDATA[(7.7885arg-10°)kVA]]></answer>
+                  <einheit><![CDATA[?VA]]></einheit>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715773</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q12]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745647</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[0A]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[a0.1]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[0A]]></maxima>
+                  <answer><![CDATA[0A]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715774</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q13]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745648</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[8.653846154arg175°A]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cIZ_V2]]></maxima>
+                  <answer><![CDATA[(8.6538arg175°)A]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715775</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q14]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745649</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[(8.653846154arg-5°)A]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cIZ_W2]]></maxima>
+                  <answer><![CDATA[(8.6538arg-5°)A]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715776</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q15]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745650</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[0V]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[a0.1]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[0V]]></maxima>
+                  <answer><![CDATA[0V]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715777</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q16]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745651</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[225arg165°V]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cUZ_V2]]></maxima>
+                  <answer><![CDATA[(225arg165°)V]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715778</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q17]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745652</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[(225arg-15°)V]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cUZ_W2]]></maxima>
+                  <answer><![CDATA[(225arg-15°)V]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715779</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q18]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745653</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[(389.7114317arg-105°)V]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cUB]]></maxima>
+                  <answer><![CDATA[(389.71arg-105°)V]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715780</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q19]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745654</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[0VA]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[a0.1]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[0VA]]></maxima>
+                  <answer><![CDATA[0VA]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715781</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q20]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745655</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[(1.947115385arg-10°)kW]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cSZ_V2]]></maxima>
+                  <answer><![CDATA[(1.9471arg-10°)kW]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715782</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q21]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745656</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[(1.947115385arg-10°)kW]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cSZ_W2]]></maxima>
+                  <answer><![CDATA[(1.9471arg-10°)kW]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715783</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q22]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745657</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[(3.894230769arg-10°)kW]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cSGes2]]></maxima>
+                  <answer><![CDATA[(3.8942arg-10°)kW]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158708389</id>
+               <status/>
+               <name><![CDATA[k]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[0]]></minimum>
+               <maximum><![CDATA[22]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:0-23]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[1;0;6;5;14;11;16;13;14;16;22;21;21;9;1;13;22;0;18;7;2;14;4;19;13;11;5;7;0;1;13;1;20;4;9;21;13;5;7;9]]></items>
+            </dataset>
+            <dataset>
+               <id>158708390</id>
+               <status/>
+               <name><![CDATA[UD]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[360]]></minimum>
+               <maximum><![CDATA[460]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[F2:360-460]]></zahlenbereich>
+               <ziffern>2</ziffern>
+               <einheit><![CDATA[V]]></einheit>
+               <items><![CDATA[450;410;420;360;440;370;410;430;430;440;410;420;450;420;400;410;440;440;440;400;430;440;370;450;460;390;380;390;400;370;390;390;420;400;430;440;410;450;420;430]]></items>
+            </dataset>
+            <dataset>
+               <id>158708391</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[f]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[40]]></minimum>
+               <maximum><![CDATA[80]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[40,50,60,70,80]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit><![CDATA[Hz]]></einheit>
+               <items><![CDATA[50;50;40;80;40;40;80;80;40;60;40;70;40;50;40;50;50;80;80;50;60;40;40;70;70;60;50;70;80;60;80;40;60;40;80;40;80;40;40;60]]></items>
+            </dataset>
+            <dataset>
+               <id>158708392</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[Z_U]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[5]]></minimum>
+               <maximum><![CDATA[29]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[C2:5-30arg-80:10:-10,10:10:80]]></zahlenbereich>
+               <ziffern>2</ziffern>
+               <einheit><![CDATA[Ohm]]></einheit>
+               <items><![CDATA[26arg-10°;18arg40°;22arg-50°;11arg70°;29arg50°;18arg80°;25arg10°;18arg-60°;7.2arg80°;24arg-30°;5arg10°;25arg30°;26arg-10°;18arg40°;6.4arg-10°;23arg20°;21arg80°;23arg-80°;14arg70°;18arg80°;5arg10°;10arg80°;15arg70°;6.2arg-50°;21arg-60°;15arg60°;21arg80°;25arg10°;25arg-50°;28arg-40°;17arg-10°;13arg-40°;14arg-20°;26arg40°;9.7arg-80°;25arg30°;18arg-60°;9.9arg40°;17arg-40°;6.4arg-10°]]></items>
+            </dataset>
+         </question>
       </category>
       <category>
          <name><![CDATA[4.2.4 Dreieckschaltung]]></name>
@@ -17303,7 +18054,7 @@ cSGes : cSZ_U + cSZ_V + cSZ_W
             <jsonMap><![CDATA[{}]]></jsonMap>
             <changeLogMap><![CDATA[{}]]></changeLogMap>
             <questionCommentMsg/>
-            <questionCommentIcon>PROCESSING</questionCommentIcon>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
             <text art="Questiontext" id="158749354" format="html">            <inhalt><![CDATA[<h2>Grundlegende Aufgabe</h2>
 
 <p>Von einem Drehstromsystem mit symmetrischen Phasenspannungen kennt man $\underline U_{30}={=U30,poldeg,4}$.</p>
@@ -17921,7 +18672,7 @@ cSGes : cSZ_U + cSZ_V + cSZ_W
             <jsonMap><![CDATA[{}]]></jsonMap>
             <changeLogMap><![CDATA[{}]]></changeLogMap>
             <questionCommentMsg/>
-            <questionCommentIcon>PROCESSING</questionCommentIcon>
+            <questionCommentIcon>REVIEWED</questionCommentIcon>
             <text art="Questiontext" id="158749324" format="html">            <inhalt><![CDATA[<h2>Grundlegende Aufgabe</h2>
 
 <p>Von einem Drehstromsystem mit symmetrischen Phasenspannungen kennt man $\underline U_{30}={=U30,poldeg,4}$.</p>
@@ -18480,6 +19231,835 @@ cSGes : cSZ_U + cSZ_V + cSZ_W
                <ziffern>2</ziffern>
                <einheit><![CDATA[Ohm]]></einheit>
                <items><![CDATA[7.8;6.3;24;22;9.3;9.1;15;13;13;23;25;29;19;17;13;30;23;23;13;26;8.2;9.7;20;5.4;15;10;9.7;20;29;13;23;8.7;20;15;24;29;27;17;16;25]]></items>
+            </dataset>
+         </question>
+         <question type="MoodleClozeCalc">
+            <id>158674866</id>
+            <idUser>1836</idUser>
+            <questionType>22</questionType>
+            <single>2</single>
+            <name><![CDATA[Dreieck asym Z komplex Leiterbruch]]></name>
+            <punkte>26.0</punkte>
+            <penalty/>
+            <hidden>0</hidden>
+            <tag/>
+            <noAutoCorrect>0</noAutoCorrect>
+            <usecase>0</usecase>
+            <synchronize>0</synchronize>
+            <shuffleAnswers>1</shuffleAnswers>
+            <answerNumbering><![CDATA[abc]]></answerNumbering>
+            <unitGradingType>2</unitGradingType>
+            <unitPenalty>0.1</unitPenalty>
+            <showUnits>0</showUnits>
+            <unitsLeft>0</unitsLeft>
+            <maxima><![CDATA[a:exp(%i*2*%pi/3)
+UY:UD/sqrt(3)
+phiU3:2*%pi*k/24
+U30:UY*exp(%i*phiU3)
+U10:U30/a
+U20:U10/a
+
+// Rechnung mit Plugin
+UQ1 : U10
+UQ2 : U20
+UQ3 : U30
+
+// Symmetrische Impedanzen
+Z_V : Z_U
+Z_W : Z_U
+
+// Symmetrische Spannungsversorgung
+[PIM Plugin1/]
+
+cIZ_U1 : cIZ_U
+cIZ_V1 : cIZ_V
+cIZ_W1 : cIZ_W
+cSZ_U1 : cSZ_U
+cSZ_V1 : cSZ_V
+cSZ_W1 : cSZ_W
+cSGes1 : cSZ_U1 + cSZ_V1 + cSZ_W1
+
+// Leiterbruch
+[PIM Plugin2/]
+
+cIZ_U2 : cIZ_U
+cIZ_V2 : cIZ_V
+cIZ_W2 : cIZ_W
+cI12 : cI1
+cI22 : cI2
+cI32 : cI3
+cUZ_U2 : cUZ_U
+cUZ_V2 : cUZ_V
+cUZ_W2 : cUZ_W
+cSZ_U2 : cSZ_U
+cSZ_V2 : cSZ_V
+cSZ_W2 : cSZ_W
+cSGes2 : cSZ_U2 + cSZ_V2 + cSZ_W2
+]]></maxima>
+            <responseFormat><![CDATA[editor]]></responseFormat>
+            <responseFieldLines>10</responseFieldLines>
+            <attachments>3</attachments>
+            <md5/>
+            <units/>
+            <plugins><![CDATA[[PI Plugin1 Dsr "DSU(),DD(Ru,Rv,Rw);Ru:Z_U,Rv:Z_V,Rw:Z_W;IZ_U>_, IZ_V>_, IZ_W>_;IQ1>1_,IQ2>2,IQ3>3_;UZ_U>_,UZ_V>_,UZ_W>_;UQ1>10_,UQ2>20_,UQ3>30_;"],[PI Plugin2 Dsr "DSU(),DZ(LL1,KS2,KS3),DD(Ru,Rv,Rw);Ru:Z_U,Rv:Z_V,Rw:Z_W;IZ_U>_, IZ_V>_, IZ_W>_;IQ1>1_,IQ2>2,IQ3>3_;UZ_U>_,UZ_V>_,UZ_W>_;UQ1>10_,UQ2>20_,UQ3>30_;LL1:B,UB>_;"]]]></plugins>
+            <sendToParser>true</sendToParser>
+            <preCalc>true</preCalc>
+            <streng>false</streng>
+            <licenceKey />
+            <konstanteMitProzent>false</konstanteMitProzent>
+            <useSymbolicMode>false</useSymbolicMode>
+            <addDocumentsPossible>false</addDocumentsPossible>
+            <info/>
+            <randomDataset>false</randomDataset>
+            <creationDate></creationDate>
+            <lastChange></lastChange>
+            <security/>
+            <copyright/>
+            <onRamp>false</onRamp>
+            <jsonMap><![CDATA[{}]]></jsonMap>
+            <changeLogMap><![CDATA[{}]]></changeLogMap>
+            <questionCommentMsg/>
+            <questionCommentIcon>PROCESSING</questionCommentIcon>
+            <text art="Questiontext" id="158749462" format="html">            <inhalt><![CDATA[<h2>Grundlegende Aufgabe</h2>
+
+<p>Von einem Drehstromsystem mit symmetrischen Phasenspannungen kennt man $\underline U_{20}={=U20,poldeg,4}$.</p>
+
+<p>(a) Bestimmen Sie die Phasenspannung $\underline U_{30}$ [Q0]</p>
+
+<p>(b) Bestimmen Sie die Phasenspannung $\underline U_{10}$ [Q1]</p>
+
+<p>An den symmetrischen Spannungen $\underline U_{10}$, $\underline U_{20}$ und $\underline U_{30}$ des Drehstromsystems werden drei symmetrische Lasten mit $\underline Z_U = \underline Z_V = \underline Z_W = {=Z_W;poldeg,4}$ betrieben.</p>
+
+<p>[PIG Plugin1 &quot;S w70&quot;/]</p>
+
+<p>(c) Bestimmen Sie die Spannung $\underline U_{ ZU} = $&nbsp;[Q2]&nbsp;</p>
+
+<p>(d)&nbsp;Bestimmen Sie die Spannung $\underline U_{ ZV} = $&nbsp;[Q3]&nbsp;</p>
+
+<p>(e) Bestimmen Sie die Spannung $\underline U_{ ZW} = $&nbsp;[Q4]&nbsp;</p>
+
+<p>(f) Bestimmen Sie den Strom $\underline I_{ ZU} = $ [Q5]</p>
+
+<p>(g) Bestimmen Sie den Strom $\underline I_{ ZV} = $ [Q6]</p>
+
+<p>(h) Bestimmen Sie den Strom $\underline I_{ ZW} = $ [Q7]</p>
+
+<p>(i) Bestimmen Sie f&uuml;r den Strang U die komplexe Scheinleistung $\underline S_U = $&nbsp; [Q8]&nbsp;</p>
+
+<p>(j) Bestimmen Sie f&uuml;r den Strang V die komplexe Scheinleistung $\underline S_V = $&nbsp;[Q9]&nbsp;</p>
+
+<p>(k) Bestimmen Sie f&uuml;r den Strang W die komplexe Scheinleistung $\underline S_W = $&nbsp;[Q10]&nbsp;</p>
+
+<p>(l) Bestimmen Sie die gesamte komplexe Scheinleistung $\underline S_\mathrm{Ges} = $&nbsp;[Q11]&nbsp;</p>
+
+<hr />
+<p>In den Zuleitungen zu den Lastimpedanzen kommt es nun zu einem Leiterbruch:</p>
+
+<p>[PIG Plugin2 &quot;S w90&quot;/]</p>
+
+<p>(m) Bestimmen Sie den Strom $\underline I_{ ZU} = $ [Q12]</p>
+
+<p>(n) Bestimmen Sie den Strom $\underline I_{ ZV} = $ [Q13]</p>
+
+<p>(o) Bestimmen Sie den Strom $\underline I_{ ZW} = $ [Q14]</p>
+
+<p>(p) Bestimmen Sie den Strom $\underline I_1 = $&nbsp;[Q15]&nbsp;</p>
+
+<p>(q) Bestimmen Sie den Strom $\underline I_2 = $&nbsp;[Q16]&nbsp;</p>
+
+<p>(r) Bestimmen Sie den Strom $\underline I_3 = $&nbsp;[Q17]&nbsp;</p>
+
+<p>(s) Bestimmen Sie die&nbsp;Spannung $\underline U_{ ZU} = $&nbsp;[Q18]&nbsp;</p>
+
+<p>(t)&nbsp;Bestimmen Sie die Spannung $\underline U_{ ZV} = $&nbsp;[Q19]&nbsp;</p>
+
+<p>(u) Bestimmen Sie die Spannung $\underline U_{ ZW} = $&nbsp;[Q20]&nbsp;</p>
+
+<p>(v) Bestimmen Sie die Spannung $\underline U_B = $&nbsp;[Q21]&nbsp;</p>
+
+<p>(w)&nbsp;Bestimmen Sie f&uuml;r den Strang U die komplexe Scheinleistung $\underline S_U = $&nbsp;[Q22]&nbsp;</p>
+
+<p>(x) Bestimmen Sie f&uuml;r den Strang V die komplexe Scheinleistung $\underline S_V = $&nbsp;[Q23]&nbsp;</p>
+
+<p>(y) Bestimmen Sie f&uuml;r den Strang W die komplexe Scheinleistung $\underline S_W = $&nbsp;[Q24]&nbsp;</p>
+
+<p>(z) Bestimmen Sie die gesamte komplexe Scheinleistung $\underline S_\mathrm{Ges} = $&nbsp;[Q25]&nbsp;</p>
+]]></inhalt>
+</text>
+            <text art="general feedback" id="158749463" format="html">            <inhalt><![CDATA[<p>[PIG Plugin2 &quot;S w90&quot;/]</p>
+
+<p>(m) Der Strim durch die Imepdanz&nbsp;$\underline Z_{ ZU}$ ist infolge des Leiterbruchs gleich null.</p>
+
+<p>(n) Es sind nun die Impedanzen $\underline Z_U$ und $\underline Z_W$ in Serie geschaltet. An diesen beiden Impedanzen liegt insgesamt die Spannung $\underline U_{20} - \underline U_{30}$.</p>
+
+<p>(o) Es gilt $\underline I_{ ZU} + \underline I_{ ZW} = 0$.&nbsp;</p>
+]]></inhalt>
+</text>
+            <text art="correct feedback" id="158749464" format="html">            <inhalt/>
+</text>
+            <text art="partially correct feedback" id="158749465" format="html">            <inhalt/>
+</text>
+            <text art="incorrect feedback" id="158749466" format="html">            <inhalt/>
+</text>
+            <text art="grader info" id="158749467" format="html">            <inhalt/>
+</text>
+            <subquestion>
+               <id>158715784</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q0]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745658</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[259.8076211arg15°V]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1.0%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[U30]]></maxima>
+                  <answer><![CDATA[(259.81arg15°)V]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715785</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q1]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745659</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[(259.8076211arg-105°)V]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1.0%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[U10]]></maxima>
+                  <answer><![CDATA[(259.81arg-105°)V]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715786</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q2]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745660</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[(225arg-15°)V]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cUZ_U]]></maxima>
+                  <answer><![CDATA[(225arg-15°)V]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715787</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q3]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745661</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[450arg165°V]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cUZ_V]]></maxima>
+                  <answer><![CDATA[(450arg165°)V]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715788</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q4]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745662</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[(225arg-15°)V]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cUZ_W]]></maxima>
+                  <answer><![CDATA[(225arg-15°)V]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715789</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q5]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745663</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[(17.30769231arg-65°)A]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1.0%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cIZ_U1]]></maxima>
+                  <answer><![CDATA[(17.308arg-65°)A]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715790</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q6]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745664</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[17.30769231arg175°A]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1.0%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cIZ_V1]]></maxima>
+                  <answer><![CDATA[(17.308arg175°)A]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715791</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q7]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745665</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[17.30769231arg55°A]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1.0%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cIZ_W1]]></maxima>
+                  <answer><![CDATA[(17.308arg55°)A]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715792</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q8]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745666</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[(7.788461538arg-10°)kW]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cSZ_U1]]></maxima>
+                  <answer><![CDATA[(7.7885arg-10°)kVA]]></answer>
+                  <einheit><![CDATA[?VA]]></einheit>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715793</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q9]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745667</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[(7.788461538arg-10°)kW]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cSZ_V1]]></maxima>
+                  <answer><![CDATA[(7.7885arg-10°)kVA]]></answer>
+                  <einheit><![CDATA[?VA]]></einheit>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715794</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q10]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745668</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[(7.788461538arg-10°)kW]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cSZ_W1]]></maxima>
+                  <answer><![CDATA[(7.7885arg-10°)kVA]]></answer>
+                  <einheit><![CDATA[?VA]]></einheit>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715795</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q11]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745669</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[(23.36538462arg-10°)kW]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cSGes1]]></maxima>
+                  <answer><![CDATA[(23.365arg-10°)kVA]]></answer>
+                  <einheit><![CDATA[?VA]]></einheit>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715796</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q12]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745670</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[0A]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[a0.1]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[0A]]></maxima>
+                  <answer><![CDATA[0A]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715797</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q13]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745671</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[17.30769231arg175°A]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cIZ_V2]]></maxima>
+                  <answer><![CDATA[(17.308arg175°)A]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715798</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q14]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745672</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[(8.653846154arg-5°)A]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cIZ_W2]]></maxima>
+                  <answer><![CDATA[(8.6538arg-5°)A]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715807</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q15]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745681</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[0A]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cI12]]></maxima>
+                  <answer><![CDATA[0A]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715808</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q16]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745682</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[25.96153846arg175°A]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cI22]]></maxima>
+                  <answer><![CDATA[(25.962arg175°)A]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715809</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q17]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745683</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[(25.96153846arg-5°)A]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cI32]]></maxima>
+                  <answer><![CDATA[(25.962arg-5°)A]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715799</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q18]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745673</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[0V]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[a0.1]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[0V]]></maxima>
+                  <answer><![CDATA[0V]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715800</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q19]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745674</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[450arg165°V]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cUZ_V2]]></maxima>
+                  <answer><![CDATA[(450arg165°)V]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715801</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q20]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745675</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[(225arg-15°)V]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cUZ_W2]]></maxima>
+                  <answer><![CDATA[(225arg-15°)V]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715802</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q21]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745676</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[(389.7114317arg-105°)V]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cUB]]></maxima>
+                  <answer><![CDATA[(389.71arg-105°)V]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715803</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q22]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745677</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[0VA]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[a0.1]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[0VA]]></maxima>
+                  <answer><![CDATA[0VA]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715804</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q23]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745678</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[(7.788461538arg-10°)kW]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cSZ_V2]]></maxima>
+                  <answer><![CDATA[(7.7885arg-10°)kW]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715805</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q24]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745679</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[(1.947115385arg-10°)kW]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cSZ_W2]]></maxima>
+                  <answer><![CDATA[(1.9471arg-10°)kW]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <subquestion>
+               <id>158715806</id>
+               <grade>1.0</grade>
+               <mode>4</mode>
+               <name><![CDATA[Q25]]></name>
+               <maxima/>
+               <plugininfo/>
+               <shuffleAnswers>1</shuffleAnswers>
+               <schwierigkeit>0</schwierigkeit>
+               <answer>
+                  <id>158745680</id>
+                  <fraction>100.0</fraction>
+                  <format><![CDATA[html]]></format>
+                  <text><![CDATA[(11.68269231arg-10°)kW]]></text>
+                  <feedback/>
+                  <tolerance><![CDATA[1%]]></tolerance>
+                  <correctAnswerFormat>2</correctAnswerFormat>
+                  <correctAnswerLength>5</correctAnswerLength>
+                  <maxima><![CDATA[cSGes2]]></maxima>
+                  <answer><![CDATA[(11.683arg-10°)kW]]></answer>
+                  <einheit/>
+               </answer>
+            </subquestion>
+            <dataset>
+               <id>158708395</id>
+               <status/>
+               <name><![CDATA[k]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[0]]></minimum>
+               <maximum><![CDATA[22]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[I:0-23]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit/>
+               <items><![CDATA[1;0;6;5;14;11;16;13;14;16;22;21;21;9;1;13;22;0;18;7;2;14;4;19;13;11;5;7;0;1;13;1;20;4;9;21;13;5;7;9]]></items>
+            </dataset>
+            <dataset>
+               <id>158708396</id>
+               <status/>
+               <name><![CDATA[UD]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[360]]></minimum>
+               <maximum><![CDATA[460]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[F2:360-460]]></zahlenbereich>
+               <ziffern>2</ziffern>
+               <einheit><![CDATA[V]]></einheit>
+               <items><![CDATA[450;410;420;360;440;370;410;430;430;440;410;420;450;420;400;410;440;440;440;400;430;440;370;450;460;390;380;390;400;370;390;390;420;400;430;440;410;450;420;430]]></items>
+            </dataset>
+            <dataset>
+               <id>158708397</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[f]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[40]]></minimum>
+               <maximum><![CDATA[80]]></maximum>
+               <decimals><![CDATA[0]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[40,50,60,70,80]]></zahlenbereich>
+               <ziffern>10</ziffern>
+               <einheit><![CDATA[Hz]]></einheit>
+               <items><![CDATA[50;50;40;80;40;40;80;80;40;60;40;70;40;50;40;50;50;80;80;50;60;40;40;70;70;60;50;70;80;60;80;40;60;40;80;40;80;40;40;60]]></items>
+            </dataset>
+            <dataset>
+               <id>158708398</id>
+               <status><![CDATA[shared]]></status>
+               <name><![CDATA[Z_U]]></name>
+               <type><![CDATA[calculated]]></type>
+               <distribution><![CDATA[uniform]]></distribution>
+               <minimum><![CDATA[5]]></minimum>
+               <maximum><![CDATA[29]]></maximum>
+               <decimals><![CDATA[3]]></decimals>
+               <itemcount>40</itemcount>
+               <zahlenbereich><![CDATA[C2:5-30arg-80:10:-10,10:10:80]]></zahlenbereich>
+               <ziffern>2</ziffern>
+               <einheit><![CDATA[Ohm]]></einheit>
+               <items><![CDATA[26arg-10°;18arg40°;22arg-50°;11arg70°;29arg50°;18arg80°;25arg10°;18arg-60°;7.2arg80°;24arg-30°;5arg10°;25arg30°;26arg-10°;18arg40°;6.4arg-10°;23arg20°;21arg80°;23arg-80°;14arg70°;18arg80°;5arg10°;10arg80°;15arg70°;6.2arg-50°;21arg-60°;15arg60°;21arg80°;25arg10°;25arg-50°;28arg-40°;17arg-10°;13arg-40°;14arg-20°;26arg40°;9.7arg-80°;25arg30°;18arg-60°;9.9arg40°;17arg-40°;6.4arg-10°]]></items>
             </dataset>
          </question>
       </category>

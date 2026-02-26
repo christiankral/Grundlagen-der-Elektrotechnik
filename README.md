@@ -8,7 +8,7 @@ Aktuelle [Errata zum Buch](https://github.com/christiankral/Grundlagen-der-Elekt
 
 # Grundlagen der Elektrotechnik 2
 
-Das Fachbuch wird im [Carl Hanser Verlag](https://www.hanser-fachbuch.de/fachbuch/artikel/9783446481664) erscheinen.
+Das Fachbuch ist im [Carl Hanser Verlag](https://www.hanser-fachbuch.de/fachbuch/artikel/9783446481664) erschienen.
 
 <img src="https://res.cloudinary.com/literaturverlage/image/upload/MAM/Image/ARTK_CT0_9783446481664_0001.jpg" width="300"/>
 

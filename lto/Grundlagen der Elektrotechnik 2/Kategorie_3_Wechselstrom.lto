@@ -41902,7 +41902,7 @@ C4 : -1 / (w * XC4)
             <questionCommentIcon>PROCESSING</questionCommentIcon>
             <text art="Questiontext" id="158737450" format="">            <inhalt><![CDATA[<p>[PIG Plugin1 &quot;S w50&quot;/]</p>
 
-<p>Gegeben sind die Str&ouml;me $\underline I_{ Q1} = {=cIe;poldeg,4}$,&nbsp;$\underline I_{ Z1} = {=cIZ1;poldeg,4}$,&nbsp;$\underline I_{ Z3} = {=cIZ3;poldeg,4}$</p>
+<p>Gegeben sind die Str&ouml;me $\underline I_{ Q1} = {=IQ1;poldeg,4}$,&nbsp;$\underline I_{ Z1} = {=cIZ1;poldeg,4}$,&nbsp;$\underline I_{ Z3} = {=cIZ3;poldeg,4}$</p>
 
 <p>Bestimmen Sie den Strom $\underline I_{ Z2} = $&nbsp;[Q0]&nbsp;</p>
 ]]></inhalt>

@@ -12,6 +12,8 @@ Das Fachbuch ist im [Carl Hanser Verlag](https://www.hanser-fachbuch.de/fachbuch
 
 <img src="https://res.cloudinary.com/literaturverlage/image/upload/MAM/Image/ARTK_CT0_9783446481664_0001.jpg" width="300"/>
 
+Aktuelle [Errata zum Buch](https://github.com/christiankral/Grundlagen-der-Elektrotechnik/blob/main/Errata/Errata-Grundlagen-der-Elektrochnik-2-Auflage-1.pdf)
+
 # Das Repository zu beiden Büchern
 
 Verwenden Sie diese Repository für **Feedback**, falls
